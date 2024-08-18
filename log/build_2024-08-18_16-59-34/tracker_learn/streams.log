@@ -1,0 +1,88 @@
+[0.023s] Invoking command in '/home/ake/桌面/A.Ke_common/build/tracker_learn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ake/桌面/A.Ke_common/tracker_learn -DCMAKE_INSTALL_PREFIX=/home/ake/桌面/A.Ke_common/install/tracker_learn
+[0.259s] -- The C compiler identification is GNU 11.4.0
+[0.395s] -- The CXX compiler identification is GNU 11.4.0
+[0.411s] -- Detecting C compiler ABI info
+[0.633s] -- Detecting C compiler ABI info - done
+[0.644s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.645s] -- Detecting C compile features
+[0.646s] -- Detecting C compile features - done
+[0.652s] -- Detecting CXX compiler ABI info
+[0.825s] -- Detecting CXX compiler ABI info - done
+[0.835s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.836s] -- Detecting CXX compile features
+[0.837s] -- Detecting CXX compile features - done
+[0.847s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.100s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.245s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.471s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.486s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.507s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.743s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.752s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.052s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.177s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.212s] -- Looking for pthread.h
+[2.416s] -- Looking for pthread.h - found
+[2.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.711s] -- Found Threads: TRUE  
+[3.038s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.276s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.276s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ake/桌面/A.Ke_common/tracker_learn/include>
+[3.278s] -- Configured cppcheck exclude dirs and/or files: 
+[3.282s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.294s] -- Added test 'lint_cmake' to check CMake code style
+[3.301s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.334s] -- Added test 'uncrustify' to check C / C++ code style
+[3.334s] -- Configured uncrustify additional arguments: 
+[3.343s] -- Added test 'xmllint' to check XML markup files
+[3.343s] -- Configuring done
+[3.367s] -- Generating done
+[3.369s] -- Build files have been written to: /home/ake/桌面/A.Ke_common/build/tracker_learn
+[3.386s] Invoked command in '/home/ake/桌面/A.Ke_common/build/tracker_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ake/桌面/A.Ke_common/tracker_learn -DCMAKE_INSTALL_PREFIX=/home/ake/桌面/A.Ke_common/install/tracker_learn
+[3.387s] Invoking command in '/home/ake/桌面/A.Ke_common/build/tracker_learn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ake/桌面/A.Ke_common/build/tracker_learn -- -j2 -l2
+[3.527s] [ 25%] [32mBuilding CXX object CMakeFiles/founder_node.dir/src/founder_node.cpp.o[0m
+[3.562s] [ 50%] [32mBuilding CXX object CMakeFiles/tracker_node.dir/src/tracker_node.cpp.o[0m
+[35.898s] [01m[K/home/ake/桌面/A.Ke_common/tracker_learn/src/founder_node.cpp:[m[K In lambda function:
+[35.898s] [01m[K/home/ake/桌面/A.Ke_common/tracker_learn/src/founder_node.cpp:19:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.xyz"), std::allocator<char>())).rclcpp::Parameter::as_double()[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[35.899s]    19 |                 [01;35m[Kthis->get_parameter("ekf.xyz").as_double()[m[K,
+[35.899s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[35.899s] [01m[K/home/ake/桌面/A.Ke_common/tracker_learn/src/founder_node.cpp:19:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.xyz"), std::allocator<char>())).rclcpp::Parameter::as_double()[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[35.899s] [01m[K/home/ake/桌面/A.Ke_common/tracker_learn/src/founder_node.cpp:20:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.yaw"), std::allocator<char>())).rclcpp::Parameter::as_double()[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[35.899s]    20 |                 [01;35m[Kthis->get_parameter("ekf.yaw").as_double()[m[K,
+[35.899s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[35.899s] [01m[K/home/ake/桌面/A.Ke_common/tracker_learn/src/founder_node.cpp:20:57:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.yaw"), std::allocator<char>())).rclcpp::Parameter::as_double()[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[35.899s] [01m[K/home/ake/桌面/A.Ke_common/tracker_learn/src/founder_node.cpp:21:55:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.r"), std::allocator<char>())).rclcpp::Parameter::as_double()[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[35.899s]    21 |                 [01;35m[Kthis->get_parameter("ekf.r").as_double()[m[K,
+[35.901s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[35.901s] [01m[K/home/ake/桌面/A.Ke_common/tracker_learn/src/founder_node.cpp:21:55:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.r"), std::allocator<char>())).rclcpp::Parameter::as_double()[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[52.140s] [ 75%] [32m[1mLinking CXX executable founder_node[0m
+[52.788s] [ 75%] Built target founder_node
+[58.013s] [100%] [32m[1mLinking CXX executable tracker_node[0m
+[58.590s] [100%] Built target tracker_node
+[58.615s] Invoked command in '/home/ake/桌面/A.Ke_common/build/tracker_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ake/桌面/A.Ke_common/build/tracker_learn -- -j2 -l2
+[58.719s] Invoking command in '/home/ake/桌面/A.Ke_common/build/tracker_learn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ake/桌面/A.Ke_common/build/tracker_learn
+[58.736s] -- Install configuration: ""
+[58.738s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/lib/tracker_learn/founder_node
+[58.742s] -- Set runtime path of "/home/ake/桌面/A.Ke_common/install/tracker_learn/lib/tracker_learn/founder_node" to ""
+[58.742s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/lib/tracker_learn/tracker_node
+[58.753s] -- Set runtime path of "/home/ake/桌面/A.Ke_common/install/tracker_learn/lib/tracker_learn/tracker_node" to ""
+[58.754s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/ament_index/resource_index/package_run_dependencies/tracker_learn
+[58.756s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/ament_index/resource_index/parent_prefix_path/tracker_learn
+[58.756s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/environment/ament_prefix_path.sh
+[58.757s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/environment/ament_prefix_path.dsv
+[58.757s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/environment/path.sh
+[58.757s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/environment/path.dsv
+[58.757s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/local_setup.bash
+[58.757s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/local_setup.sh
+[58.759s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/local_setup.zsh
+[58.759s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/local_setup.dsv
+[58.759s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.dsv
+[58.759s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/ament_index/resource_index/packages/tracker_learn
+[58.759s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/cmake/tracker_learnConfig.cmake
+[58.759s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/cmake/tracker_learnConfig-version.cmake
+[58.759s] -- Installing: /home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.xml
+[58.764s] Invoked command in '/home/ake/桌面/A.Ke_common/build/tracker_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ake/桌面/A.Ke_common/build/tracker_learn

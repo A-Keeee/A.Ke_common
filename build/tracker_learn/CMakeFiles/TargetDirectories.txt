@@ -1,0 +1,11 @@
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/uninstall.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/tracker_learn_uninstall.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/founder_node.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/tracker_node.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/test.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/edit_cache.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/rebuild_cache.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/list_install_components.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/install.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/install/local.dir
+/home/ake/桌面/A.Ke_common/build/tracker_learn/CMakeFiles/install/strip.dir

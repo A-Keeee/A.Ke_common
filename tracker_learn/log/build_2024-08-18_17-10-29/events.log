@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.004439] (tracker_learn) JobQueued: {'identifier': 'tracker_learn', 'dependencies': OrderedDict()}
+[0.006852] (tracker_learn) JobStarted: {'identifier': 'tracker_learn'}
+[0.020268] (tracker_learn) JobProgress: {'identifier': 'tracker_learn', 'progress': 'cmake'}
+[0.020385] (tracker_learn) Command: {'cmd': ['/usr/bin/cmake', '/home/ake/A.Ke/A.Ke_common/tracker_learn', '-DCMAKE_INSTALL_PREFIX=/home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn'], 'cwd': '/home/ake/A.Ke/A.Ke_common/tracker_learn/build/tracker_learn', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ake/A.Ke/A.Ke_common'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1106'), ('SYSTEMD_EXEC_PID', '1312'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11929'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21109'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1276,unix/ake-virtual-machine:/tmp/.ICE-unix/1276'), ('INVOCATION_ID', 'ae174f97a18142778fb2d3d981f69125'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AC73S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f14ca8a35f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/tracker_learn/build/tracker_learn'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100036] (-) TimerEvent: {}
+[0.156739] (tracker_learn) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200623] (-) TimerEvent: {}
+[0.253732] (tracker_learn) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.266535] (tracker_learn) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.303176] (-) TimerEvent: {}
+[0.404440] (-) TimerEvent: {}
+[0.413656] (tracker_learn) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.424220] (tracker_learn) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.424490] (tracker_learn) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.427719] (tracker_learn) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.482628] (tracker_learn) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.504958] (-) TimerEvent: {}
+[0.611464] (-) TimerEvent: {}
+[0.650981] (tracker_learn) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.658449] (tracker_learn) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.659061] (tracker_learn) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.660332] (tracker_learn) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.711657] (-) TimerEvent: {}
+[0.757938] (tracker_learn) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.811937] (-) TimerEvent: {}
+[0.912322] (-) TimerEvent: {}
+[1.018683] (-) TimerEvent: {}
+[1.039973] (tracker_learn) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.119051] (-) TimerEvent: {}
+[1.219933] (-) TimerEvent: {}
+[1.320671] (-) TimerEvent: {}
+[1.334374] (tracker_learn) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.421070] (-) TimerEvent: {}
+[1.467734] (tracker_learn) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.474344] (tracker_learn) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.501851] (tracker_learn) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.513563] (tracker_learn) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.521134] (-) TimerEvent: {}
+[1.545718] (tracker_learn) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.621429] (-) TimerEvent: {}
+[1.723636] (-) TimerEvent: {}
+[1.728755] (tracker_learn) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.741228] (tracker_learn) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.824237] (-) TimerEvent: {}
+[1.924577] (-) TimerEvent: {}
+[1.970310] (tracker_learn) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.009831] (tracker_learn) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.024835] (-) TimerEvent: {}
+[2.066877] (tracker_learn) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.095656] (tracker_learn) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.129667] (-) TimerEvent: {}
+[2.230089] (-) TimerEvent: {}
+[2.298498] (tracker_learn) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.298768] (tracker_learn) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.330144] (-) TimerEvent: {}
+[2.431790] (-) TimerEvent: {}
+[2.492650] (tracker_learn) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.494635] (tracker_learn) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.532908] (-) TimerEvent: {}
+[2.677187] (-) TimerEvent: {}
+[2.736661] (tracker_learn) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.777538] (-) TimerEvent: {}
+[2.880724] (-) TimerEvent: {}
+[2.898807] (tracker_learn) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.908061] (tracker_learn) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ake/A.Ke/A.Ke_common/tracker_learn/include>\n'}
+[2.908202] (tracker_learn) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.917886] (tracker_learn) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.934784] (tracker_learn) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.935060] (tracker_learn) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.937634] (tracker_learn) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.958523] (tracker_learn) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.981478] (-) TimerEvent: {}
+[2.987670] (tracker_learn) StdoutLine: {'line': b'-- Generating done\n'}
+[2.991712] (tracker_learn) StdoutLine: {'line': b'-- Build files have been written to: /home/ake/A.Ke/A.Ke_common/tracker_learn/build/tracker_learn\n'}
+[3.009244] (tracker_learn) CommandEnded: {'returncode': 0}
+[3.009675] (tracker_learn) JobProgress: {'identifier': 'tracker_learn', 'progress': 'build'}
+[3.009712] (tracker_learn) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ake/A.Ke/A.Ke_common/tracker_learn/build/tracker_learn', '--', '-j2', '-l2'], 'cwd': '/home/ake/A.Ke/A.Ke_common/tracker_learn/build/tracker_learn', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ake/A.Ke/A.Ke_common'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1106'), ('SYSTEMD_EXEC_PID', '1312'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11929'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21109'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1276,unix/ake-virtual-machine:/tmp/.ICE-unix/1276'), ('INVOCATION_ID', 'ae174f97a18142778fb2d3d981f69125'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AC73S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f14ca8a35f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/tracker_learn/build/tracker_learn'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.082028] (-) TimerEvent: {}
+[3.134671] (tracker_learn) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tracker_node.dir/src/tracker_node.cpp.o\x1b[0m\n'}
+[3.152063] (tracker_learn) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/founder_node.dir/src/founder_node.cpp.o\x1b[0m\n'}
+[3.182158] (-) TimerEvent: {}
+[3.287269] (-) TimerEvent: {}
+[3.387559] (-) TimerEvent: {}
+[3.488312] (-) TimerEvent: {}
+[3.590715] (-) TimerEvent: {}
+[3.691119] (-) TimerEvent: {}
+[3.793308] (-) TimerEvent: {}
+[3.893790] (-) TimerEvent: {}
+[3.994576] (-) TimerEvent: {}
+[4.095446] (-) TimerEvent: {}
+[4.196100] (-) TimerEvent: {}
+[4.298735] (-) TimerEvent: {}
+[4.400138] (-) TimerEvent: {}
+[4.502948] (-) TimerEvent: {}
+[4.603901] (-) TimerEvent: {}
+[4.704783] (-) TimerEvent: {}
+[4.805596] (-) TimerEvent: {}
+[4.906024] (-) TimerEvent: {}
+[5.008663] (-) TimerEvent: {}
+[5.109563] (-) TimerEvent: {}
+[5.210216] (-) TimerEvent: {}
+[5.311068] (-) TimerEvent: {}
+[5.413005] (-) TimerEvent: {}
+[5.513374] (-) TimerEvent: {}
+[5.614205] (-) TimerEvent: {}
+[5.719666] (-) TimerEvent: {}
+[5.820542] (-) TimerEvent: {}
+[5.921001] (-) TimerEvent: {}
+[6.021409] (-) TimerEvent: {}
+[6.121802] (-) TimerEvent: {}
+[6.223388] (-) TimerEvent: {}
+[6.324855] (-) TimerEvent: {}
+[6.425248] (-) TimerEvent: {}
+[6.525854] (-) TimerEvent: {}
+[6.626800] (-) TimerEvent: {}
+[6.727791] (-) TimerEvent: {}
+[6.828197] (-) TimerEvent: {}
+[6.928875] (-) TimerEvent: {}
+[7.030797] (-) TimerEvent: {}
+[7.131167] (-) TimerEvent: {}
+[7.231515] (-) TimerEvent: {}
+[7.332198] (-) TimerEvent: {}
+[7.434763] (-) TimerEvent: {}
+[7.535142] (-) TimerEvent: {}
+[7.639294] (-) TimerEvent: {}
+[7.857524] (-) TimerEvent: {}
+[7.985684] (-) TimerEvent: {}
+[8.200819] (-) TimerEvent: {}
+[8.351699] (-) TimerEvent: {}
+[8.455650] (-) TimerEvent: {}
+[8.555964] (-) TimerEvent: {}
+[8.657812] (-) TimerEvent: {}
+[8.759655] (-) TimerEvent: {}
+[8.861668] (-) TimerEvent: {}
+[8.963668] (-) TimerEvent: {}
+[9.070669] (-) TimerEvent: {}
+[9.171005] (-) TimerEvent: {}
+[9.271745] (-) TimerEvent: {}
+[9.321488] (tracker_learn) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/tracker_learn/src/founder_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[9.321783] (tracker_learn) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/tracker_learn/src/founder_node.cpp:19:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.xyz"), std::allocator<char>())).rclcpp::Parameter::as_double()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.321911] (tracker_learn) StderrLine: {'line': b'   19 |                 \x1b[01;35m\x1b[Kthis->get_parameter("ekf.xyz").as_double()\x1b[m\x1b[K,\n'}
+[9.323611] (tracker_learn) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.323832] (tracker_learn) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/tracker_learn/src/founder_node.cpp:19:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.xyz"), std::allocator<char>())).rclcpp::Parameter::as_double()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.323958] (tracker_learn) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/tracker_learn/src/founder_node.cpp:20:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.yaw"), std::allocator<char>())).rclcpp::Parameter::as_double()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.324101] (tracker_learn) StderrLine: {'line': b'   20 |                 \x1b[01;35m\x1b[Kthis->get_parameter("ekf.yaw").as_double()\x1b[m\x1b[K,\n'}
+[9.324211] (tracker_learn) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.324314] (tracker_learn) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/tracker_learn/src/founder_node.cpp:20:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.yaw"), std::allocator<char>())).rclcpp::Parameter::as_double()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.324417] (tracker_learn) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/tracker_learn/src/founder_node.cpp:21:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.r"), std::allocator<char>())).rclcpp::Parameter::as_double()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.324520] (tracker_learn) StderrLine: {'line': b'   21 |                 \x1b[01;35m\x1b[Kthis->get_parameter("ekf.r").as_double()\x1b[m\x1b[K,\n'}
+[9.326676] (tracker_learn) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.353632] (tracker_learn) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/tracker_learn/src/founder_node.cpp:21:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::get_parameter(const string&) const(std::__cxx11::basic_string<char>(((const char*)"ekf.r"), std::allocator<char>())).rclcpp::Parameter::as_double()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.371859] (-) TimerEvent: {}
+[9.473797] (-) TimerEvent: {}
+[9.578684] (-) TimerEvent: {}
+[9.680666] (-) TimerEvent: {}
+[9.781657] (-) TimerEvent: {}
+[9.885779] (-) TimerEvent: {}
+[9.986684] (-) TimerEvent: {}
+[10.087109] (-) TimerEvent: {}
+[10.187442] (-) TimerEvent: {}
+[10.290662] (-) TimerEvent: {}
+[10.391835] (-) TimerEvent: {}
+[10.492814] (-) TimerEvent: {}
+[10.593886] (-) TimerEvent: {}
+[10.696496] (-) TimerEvent: {}
+[10.803662] (-) TimerEvent: {}
+[10.914577] (-) TimerEvent: {}
+[11.032661] (-) TimerEvent: {}
+[11.293658] (-) TimerEvent: {}
+[11.419115] (-) TimerEvent: {}
+[11.617647] (-) TimerEvent: {}
+[11.806174] (-) TimerEvent: {}
+[11.970764] (-) TimerEvent: {}
+[12.104667] (-) TimerEvent: {}
+[12.205745] (-) TimerEvent: {}
+[12.421352] (-) TimerEvent: {}
+[12.713918] (-) TimerEvent: {}
+[12.912738] (-) TimerEvent: {}
+[13.086773] (-) TimerEvent: {}
+[13.193233] (-) TimerEvent: {}
+[13.481650] (-) TimerEvent: {}
+[13.581919] (-) TimerEvent: {}
+[13.840479] (-) TimerEvent: {}
+[14.048658] (-) TimerEvent: {}
+[14.349801] (-) TimerEvent: {}
+[14.632084] (-) TimerEvent: {}
+[14.757422] (-) TimerEvent: {}
+[14.858093] (-) TimerEvent: {}
+[15.074815] (-) TimerEvent: {}
+[15.237861] (-) TimerEvent: {}
+[15.338732] (-) TimerEvent: {}
+[15.554667] (-) TimerEvent: {}
+[15.805663] (-) TimerEvent: {}
+[15.921838] (-) TimerEvent: {}
+[16.025302] (-) TimerEvent: {}
+[16.145051] (-) TimerEvent: {}
+[16.249939] (-) TimerEvent: {}
+[16.354661] (-) TimerEvent: {}
+[16.458692] (-) TimerEvent: {}
+[16.560665] (-) TimerEvent: {}
+[16.661122] (-) TimerEvent: {}
+[16.761605] (-) TimerEvent: {}
+[16.862600] (-) TimerEvent: {}
+[16.964665] (-) TimerEvent: {}
+[17.065771] (-) TimerEvent: {}
+[17.166899] (-) TimerEvent: {}
+[17.269677] (-) TimerEvent: {}
+[17.371042] (-) TimerEvent: {}
+[17.474666] (-) TimerEvent: {}
+[17.575019] (-) TimerEvent: {}
+[17.675478] (-) TimerEvent: {}
+[17.795134] (-) TimerEvent: {}
+[18.039668] (-) TimerEvent: {}
+[18.141443] (-) TimerEvent: {}
+[18.246654] (-) TimerEvent: {}
+[18.347663] (-) TimerEvent: {}
+[18.448774] (-) TimerEvent: {}
+[18.550355] (-) TimerEvent: {}
+[18.680445] (-) TimerEvent: {}
+[18.796848] (-) TimerEvent: {}
+[18.902662] (-) TimerEvent: {}
+[19.002988] (-) TimerEvent: {}
+[19.148059] (-) TimerEvent: {}
+[19.248417] (-) TimerEvent: {}
+[19.352658] (-) TimerEvent: {}
+[19.457888] (-) TimerEvent: {}
+[19.558879] (-) TimerEvent: {}
+[19.665923] (-) TimerEvent: {}
+[19.768679] (-) TimerEvent: {}
+[19.878734] (-) TimerEvent: {}
+[19.979108] (-) TimerEvent: {}
+[20.082011] (-) TimerEvent: {}
+[20.182636] (-) TimerEvent: {}
+[20.285536] (-) TimerEvent: {}
+[20.388861] (-) TimerEvent: {}
+[20.490799] (-) TimerEvent: {}
+[20.622648] (-) TimerEvent: {}
+[20.834749] (-) TimerEvent: {}
+[21.010773] (-) TimerEvent: {}
+[21.123570] (-) TimerEvent: {}
+[21.223954] (-) TimerEvent: {}
+[21.328510] (-) TimerEvent: {}
+[21.429021] (-) TimerEvent: {}
+[21.531674] (-) TimerEvent: {}
+[21.632794] (-) TimerEvent: {}
+[21.734800] (-) TimerEvent: {}
+[21.835212] (-) TimerEvent: {}
+[21.939661] (-) TimerEvent: {}
+[22.042690] (-) TimerEvent: {}
+[22.097144] (tracker_learn) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable founder_node\x1b[0m\n'}
+[22.143756] (-) TimerEvent: {}
+[22.244238] (-) TimerEvent: {}
+[22.346838] (-) TimerEvent: {}
+[22.447218] (-) TimerEvent: {}
+[22.548859] (-) TimerEvent: {}
+[22.649956] (-) TimerEvent: {}
+[22.750549] (-) TimerEvent: {}
+[22.851143] (-) TimerEvent: {}
+[22.951776] (-) TimerEvent: {}
+[23.053287] (-) TimerEvent: {}
+[23.154681] (-) TimerEvent: {}
+[23.257834] (-) TimerEvent: {}
+[23.359785] (-) TimerEvent: {}
+[23.461026] (-) TimerEvent: {}
+[23.561741] (-) TimerEvent: {}
+[23.664664] (-) TimerEvent: {}
+[23.765782] (-) TimerEvent: {}
+[23.872668] (-) TimerEvent: {}
+[23.975667] (-) TimerEvent: {}
+[24.078664] (-) TimerEvent: {}
+[24.181667] (-) TimerEvent: {}
+[24.185373] (tracker_learn) StdoutLine: {'line': b'[ 75%] Built target founder_node\n'}
+[24.284132] (-) TimerEvent: {}
+[24.384821] (-) TimerEvent: {}
+[24.486739] (-) TimerEvent: {}
+[24.588051] (-) TimerEvent: {}
+[24.690060] (-) TimerEvent: {}
+[24.790788] (-) TimerEvent: {}
+[24.892672] (-) TimerEvent: {}
+[24.993348] (-) TimerEvent: {}
+[25.095749] (-) TimerEvent: {}
+[25.199966] (-) TimerEvent: {}
+[25.333698] (-) TimerEvent: {}
+[25.449614] (-) TimerEvent: {}
+[25.561940] (-) TimerEvent: {}
+[25.669667] (-) TimerEvent: {}
+[25.867871] (-) TimerEvent: {}
+[25.986680] (-) TimerEvent: {}
+[26.087012] (-) TimerEvent: {}
+[26.215201] (-) TimerEvent: {}
+[26.362872] (-) TimerEvent: {}
+[26.623994] (-) TimerEvent: {}
+[26.724657] (-) TimerEvent: {}
+[26.827673] (-) TimerEvent: {}
+[26.929714] (-) TimerEvent: {}
+[27.030062] (-) TimerEvent: {}
+[27.170846] (-) TimerEvent: {}
+[27.289000] (-) TimerEvent: {}
+[27.400652] (-) TimerEvent: {}
+[27.507802] (-) TimerEvent: {}
+[27.614665] (-) TimerEvent: {}
+[27.716770] (-) TimerEvent: {}
+[27.818666] (-) TimerEvent: {}
+[27.919123] (-) TimerEvent: {}
+[28.020152] (-) TimerEvent: {}
+[28.120650] (-) TimerEvent: {}
+[28.221056] (-) TimerEvent: {}
+[28.325021] (-) TimerEvent: {}
+[28.427669] (-) TimerEvent: {}
+[28.540646] (-) TimerEvent: {}
+[28.640906] (-) TimerEvent: {}
+[28.744537] (-) TimerEvent: {}
+[28.844901] (-) TimerEvent: {}
+[28.966191] (-) TimerEvent: {}
+[29.066501] (-) TimerEvent: {}
+[29.185190] (-) TimerEvent: {}
+[29.369668] (-) TimerEvent: {}
+[29.503637] (-) TimerEvent: {}
+[29.629545] (-) TimerEvent: {}
+[29.977301] (-) TimerEvent: {}
+[30.249907] (-) TimerEvent: {}
+[30.411806] (-) TimerEvent: {}
+[30.555662] (-) TimerEvent: {}
+[30.675822] (-) TimerEvent: {}
+[30.784170] (-) TimerEvent: {}
+[30.945458] (-) TimerEvent: {}
+[31.101971] (-) TimerEvent: {}
+[31.202292] (-) TimerEvent: {}
+[31.303670] (-) TimerEvent: {}
+[31.448852] (-) TimerEvent: {}
+[31.549181] (-) TimerEvent: {}
+[31.656427] (-) TimerEvent: {}
+[31.886663] (-) TimerEvent: {}
+[31.987006] (-) TimerEvent: {}
+[32.093201] (-) TimerEvent: {}
+[32.193909] (-) TimerEvent: {}
+[32.295982] (-) TimerEvent: {}
+[32.396363] (-) TimerEvent: {}
+[32.497716] (-) TimerEvent: {}
+[32.599620] (-) TimerEvent: {}
+[32.701659] (-) TimerEvent: {}
+[32.802301] (-) TimerEvent: {}
+[32.903104] (-) TimerEvent: {}
+[33.005753] (-) TimerEvent: {}
+[33.106342] (-) TimerEvent: {}
+[33.206668] (-) TimerEvent: {}
+[33.308684] (-) TimerEvent: {}
+[33.409043] (-) TimerEvent: {}
+[33.509653] (-) TimerEvent: {}
+[33.610669] (-) TimerEvent: {}
+[33.654777] (tracker_learn) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tracker_node\x1b[0m\n'}
+[33.710793] (-) TimerEvent: {}
+[33.814673] (-) TimerEvent: {}
+[33.915025] (-) TimerEvent: {}
+[34.015796] (-) TimerEvent: {}
+[34.116636] (-) TimerEvent: {}
+[34.218720] (-) TimerEvent: {}
+[34.319047] (-) TimerEvent: {}
+[34.420145] (-) TimerEvent: {}
+[34.498684] (tracker_learn) StdoutLine: {'line': b'[100%] Built target tracker_node\n'}
+[34.520269] (-) TimerEvent: {}
+[34.592234] (tracker_learn) CommandEnded: {'returncode': 0}
+[34.621669] (-) TimerEvent: {}
+[34.721993] (-) TimerEvent: {}
+[34.794726] (tracker_learn) JobProgress: {'identifier': 'tracker_learn', 'progress': 'install'}
+[34.820069] (tracker_learn) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ake/A.Ke/A.Ke_common/tracker_learn/build/tracker_learn'], 'cwd': '/home/ake/A.Ke/A.Ke_common/tracker_learn/build/tracker_learn', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ake/A.Ke/A.Ke_common'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1106'), ('SYSTEMD_EXEC_PID', '1312'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11929'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21109'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1276,unix/ake-virtual-machine:/tmp/.ICE-unix/1276'), ('INVOCATION_ID', 'ae174f97a18142778fb2d3d981f69125'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AC73S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f14ca8a35f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/tracker_learn/build/tracker_learn'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[34.822389] (-) TimerEvent: {}
+[34.884444] (tracker_learn) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.901878] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/lib/tracker_learn/founder_node\n'}
+[34.909649] (tracker_learn) StdoutLine: {'line': b'-- Set runtime path of "/home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/lib/tracker_learn/founder_node" to ""\n'}
+[34.909888] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/lib/tracker_learn/tracker_node\n'}
+[34.922527] (-) TimerEvent: {}
+[34.930357] (tracker_learn) StdoutLine: {'line': b'-- Set runtime path of "/home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/lib/tracker_learn/tracker_node" to ""\n'}
+[34.930911] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/ament_index/resource_index/package_run_dependencies/tracker_learn\n'}
+[34.937719] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/ament_index/resource_index/parent_prefix_path/tracker_learn\n'}
+[34.938129] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/environment/ament_prefix_path.sh\n'}
+[34.948925] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/environment/ament_prefix_path.dsv\n'}
+[34.949151] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/environment/path.sh\n'}
+[34.950817] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/environment/path.dsv\n'}
+[34.951452] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/local_setup.bash\n'}
+[34.956634] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/local_setup.sh\n'}
+[34.956811] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/local_setup.zsh\n'}
+[34.956930] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/local_setup.dsv\n'}
+[34.957040] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/package.dsv\n'}
+[34.957145] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/ament_index/resource_index/packages/tracker_learn\n'}
+[34.957267] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/cmake/tracker_learnConfig.cmake\n'}
+[34.957376] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/cmake/tracker_learnConfig-version.cmake\n'}
+[34.957478] (tracker_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/tracker_learn/install/tracker_learn/share/tracker_learn/package.xml\n'}
+[34.981634] (tracker_learn) CommandEnded: {'returncode': 0}
+[35.022684] (-) TimerEvent: {}
+[35.124673] (-) TimerEvent: {}
+[35.224993] (-) TimerEvent: {}
+[35.328658] (-) TimerEvent: {}
+[35.349703] (tracker_learn) JobEnded: {'identifier': 'tracker_learn', 'rc': 0}
+[35.350785] (-) EventReactorShutdown: {}

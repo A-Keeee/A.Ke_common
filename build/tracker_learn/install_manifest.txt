@@ -1,0 +1,17 @@
+/home/ake/桌面/A.Ke_common/install/tracker_learn/lib/tracker_learn/founder_node
+/home/ake/桌面/A.Ke_common/install/tracker_learn/lib/tracker_learn/tracker_node
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/ament_index/resource_index/package_run_dependencies/tracker_learn
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/ament_index/resource_index/parent_prefix_path/tracker_learn
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/environment/ament_prefix_path.sh
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/environment/ament_prefix_path.dsv
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/environment/path.sh
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/environment/path.dsv
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/local_setup.bash
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/local_setup.sh
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/local_setup.zsh
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/local_setup.dsv
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.dsv
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/ament_index/resource_index/packages/tracker_learn
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/cmake/tracker_learnConfig.cmake
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/cmake/tracker_learnConfig-version.cmake
+/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.xml

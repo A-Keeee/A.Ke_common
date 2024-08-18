@@ -1,0 +1,184 @@
+[0.142s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7959ee7bff10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7959ee7bfa00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7959ee7bfa00>>)
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.339s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ake/桌面/A.Ke_common'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(02_motor) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/ExtraImages) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extensions ['cmake', 'python']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extension 'cmake'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extension 'python'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(Learn-OpenCV/Resources) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(tracker_learn) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(tracker_learn) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(tracker_learn) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(tracker_learn) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(tracker_learn) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(tracker_learn) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(tracker_learn) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(tracker_learn) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(tracker_learn) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'tracker_learn' with type 'ros.ament_cmake' and name 'tracker_learn'
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.392s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'tracker_learn' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'tracker_learn' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'tracker_learn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'tracker_learn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'tracker_learn' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'tracker_learn' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'tracker_learn' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'tracker_learn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'tracker_learn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'tracker_learn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ake/桌面/A.Ke_common/build/tracker_learn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ake/桌面/A.Ke_common/install/tracker_learn', 'merge_install': False, 'path': '/home/ake/桌面/A.Ke_common/tracker_learn', 'symlink_install': False, 'test_result_base': None}
+[0.470s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ake/桌面/A.Ke_common/tracker_learn' with build type 'ament_cmake'
+[0.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ake/桌面/A.Ke_common/tracker_learn'
+[0.475s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ake/桌面/A.Ke_common/build/tracker_learn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ake/桌面/A.Ke_common/tracker_learn -DCMAKE_INSTALL_PREFIX=/home/ake/桌面/A.Ke_common/install/tracker_learn
+[3.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ake/桌面/A.Ke_common/build/tracker_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ake/桌面/A.Ke_common/tracker_learn -DCMAKE_INSTALL_PREFIX=/home/ake/桌面/A.Ke_common/install/tracker_learn
+[3.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ake/桌面/A.Ke_common/build/tracker_learn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ake/桌面/A.Ke_common/build/tracker_learn -- -j2 -l2
+[59.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ake/桌面/A.Ke_common/build/tracker_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ake/桌面/A.Ke_common/build/tracker_learn -- -j2 -l2
+[59.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ake/桌面/A.Ke_common/build/tracker_learn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ake/桌面/A.Ke_common/build/tracker_learn
+[59.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracker_learn)
+[59.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ake/桌面/A.Ke_common/build/tracker_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ake/桌面/A.Ke_common/build/tracker_learn
+[59.240s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn' for CMake module files
+[59.240s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn' for CMake config files
+[59.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracker_learn', 'cmake_prefix_path')
+[59.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/hook/cmake_prefix_path.ps1'
+[59.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/hook/cmake_prefix_path.dsv'
+[59.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/hook/cmake_prefix_path.sh'
+[59.243s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/lib'
+[59.243s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/bin'
+[59.243s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/lib/pkgconfig/tracker_learn.pc'
+[59.244s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/lib/python3.10/site-packages'
+[59.244s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/bin'
+[59.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.ps1'
+[59.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.dsv'
+[59.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.sh'
+[59.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.bash'
+[59.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.zsh'
+[59.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ake/桌面/A.Ke_common/install/tracker_learn/share/colcon-core/packages/tracker_learn)
+[59.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracker_learn)
+[59.374s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn' for CMake module files
+[59.375s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn' for CMake config files
+[59.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracker_learn', 'cmake_prefix_path')
+[59.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/hook/cmake_prefix_path.ps1'
+[59.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/hook/cmake_prefix_path.dsv'
+[59.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/hook/cmake_prefix_path.sh'
+[59.379s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/lib'
+[59.379s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/bin'
+[59.379s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/lib/pkgconfig/tracker_learn.pc'
+[59.380s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/lib/python3.10/site-packages'
+[59.380s] Level 1:colcon.colcon_core.environment:checking '/home/ake/桌面/A.Ke_common/install/tracker_learn/bin'
+[59.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.ps1'
+[59.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.dsv'
+[59.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.sh'
+[59.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.bash'
+[59.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/桌面/A.Ke_common/install/tracker_learn/share/tracker_learn/package.zsh'
+[59.385s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ake/桌面/A.Ke_common/install/tracker_learn/share/colcon-core/packages/tracker_learn)
+[59.386s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[59.386s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[59.386s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[59.386s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[59.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[59.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[59.418s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[59.444s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[59.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/桌面/A.Ke_common/install/local_setup.ps1'
+[59.445s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ake/桌面/A.Ke_common/install/_local_setup_util_ps1.py'
+[59.449s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/桌面/A.Ke_common/install/setup.ps1'
+[59.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/桌面/A.Ke_common/install/local_setup.sh'
+[59.453s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ake/桌面/A.Ke_common/install/_local_setup_util_sh.py'
+[59.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/桌面/A.Ke_common/install/setup.sh'
+[59.456s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/桌面/A.Ke_common/install/local_setup.bash'
+[59.456s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/桌面/A.Ke_common/install/setup.bash'
+[59.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/桌面/A.Ke_common/install/local_setup.zsh'
+[59.460s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/桌面/A.Ke_common/install/setup.zsh'
