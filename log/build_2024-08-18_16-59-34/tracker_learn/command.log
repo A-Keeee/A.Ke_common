@@ -1,6 +1,0 @@
-Invoking command in '/home/ake/桌面/A.Ke_common/build/tracker_learn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ake/桌面/A.Ke_common/tracker_learn -DCMAKE_INSTALL_PREFIX=/home/ake/桌面/A.Ke_common/install/tracker_learn
-Invoked command in '/home/ake/桌面/A.Ke_common/build/tracker_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ake/桌面/A.Ke_common/tracker_learn -DCMAKE_INSTALL_PREFIX=/home/ake/桌面/A.Ke_common/install/tracker_learn
-Invoking command in '/home/ake/桌面/A.Ke_common/build/tracker_learn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ake/桌面/A.Ke_common/build/tracker_learn -- -j2 -l2
-Invoked command in '/home/ake/桌面/A.Ke_common/build/tracker_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ake/桌面/A.Ke_common/build/tracker_learn -- -j2 -l2
-Invoking command in '/home/ake/桌面/A.Ke_common/build/tracker_learn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ake/桌面/A.Ke_common/build/tracker_learn
-Invoked command in '/home/ake/桌面/A.Ke_common/build/tracker_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ake/桌面/A.Ke_common/build/tracker_learn
