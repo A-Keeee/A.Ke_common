@@ -1,0 +1,11 @@
+[0.013s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target pcd_learn[0m
+[0.310s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o[0m
+[8.310s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/src/pcd_learn.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[8.310s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/src/pcd_learn.cpp:32:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost::this_thread[m[K’ has not been declared
+[8.310s]    32 |                 boost::[01;31m[Kthis_thread[m[K::sleep(boost::posix_time::microseconds(100000));
+[8.310s]       |                        [01;31m[K^~~~~~~~~~~[m[K
+[9.213s] gmake[2]: *** [CMakeFiles/pcd_learn.dir/build.make:76：CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o] 错误 1
+[9.213s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pcd_learn.dir/all] 错误 2
+[9.214s] gmake: *** [Makefile:146：all] 错误 2
+[9.229s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2

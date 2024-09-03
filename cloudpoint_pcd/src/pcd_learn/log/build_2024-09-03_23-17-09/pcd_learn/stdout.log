@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target pcd_learn[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pcd_learn[0m

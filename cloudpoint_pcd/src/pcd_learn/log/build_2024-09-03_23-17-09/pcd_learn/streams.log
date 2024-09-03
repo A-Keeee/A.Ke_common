@@ -1,0 +1,15 @@
+[0.034s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target pcd_learn[0m
+[0.307s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o[0m
+[13.099s] [100%] [32m[1mLinking CXX executable pcd_learn[0m
+[17.184s] /usr/bin/ld: CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o: in function `boost::detail::interruption_checker::interruption_checker(pthread_mutex_t*, pthread_cond_t*)':
+[17.184s] pcd_learn.cpp:(.text._ZN5boost6detail20interruption_checkerC2EP15pthread_mutex_tP14pthread_cond_t[_ZN5boost6detail20interruption_checkerC5EP15pthread_mutex_tP14pthread_cond_t]+0x29): undefined reference to `boost::detail::get_current_thread_data()'
+[17.184s] /usr/bin/ld: CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o: in function `boost::condition_variable::wait(boost::unique_lock<boost::mutex>&)':
+[17.185s] pcd_learn.cpp:(.text._ZN5boost18condition_variable4waitERNS_11unique_lockINS_5mutexEEE[_ZN5boost18condition_variable4waitERNS_11unique_lockINS_5mutexEEE]+0x119): undefined reference to `boost::this_thread::interruption_point()'
+[17.185s] /usr/bin/ld: CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o: in function `boost::condition_variable::do_wait_until(boost::unique_lock<boost::mutex>&, boost::detail::mono_platform_timepoint const&)':
+[17.185s] pcd_learn.cpp:(.text._ZN5boost18condition_variable13do_wait_untilERNS_11unique_lockINS_5mutexEEERKNS_6detail23mono_platform_timepointE[_ZN5boost18condition_variable13do_wait_untilERNS_11unique_lockINS_5mutexEEERKNS_6detail23mono_platform_timepointE]+0x133): undefined reference to `boost::this_thread::interruption_point()'
+[17.260s] collect2: error: ld returned 1 exit status
+[17.263s] gmake[2]: *** [CMakeFiles/pcd_learn.dir/build.make:289：pcd_learn] 错误 1
+[17.263s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pcd_learn.dir/all] 错误 2
+[17.264s] gmake: *** [Makefile:146：all] 错误 2
+[17.267s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2

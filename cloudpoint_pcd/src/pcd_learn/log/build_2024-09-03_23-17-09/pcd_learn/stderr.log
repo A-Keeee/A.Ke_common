@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o: in function `boost::detail::interruption_checker::interruption_checker(pthread_mutex_t*, pthread_cond_t*)':
+pcd_learn.cpp:(.text._ZN5boost6detail20interruption_checkerC2EP15pthread_mutex_tP14pthread_cond_t[_ZN5boost6detail20interruption_checkerC5EP15pthread_mutex_tP14pthread_cond_t]+0x29): undefined reference to `boost::detail::get_current_thread_data()'
+/usr/bin/ld: CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o: in function `boost::condition_variable::wait(boost::unique_lock<boost::mutex>&)':
+pcd_learn.cpp:(.text._ZN5boost18condition_variable4waitERNS_11unique_lockINS_5mutexEEE[_ZN5boost18condition_variable4waitERNS_11unique_lockINS_5mutexEEE]+0x119): undefined reference to `boost::this_thread::interruption_point()'
+/usr/bin/ld: CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o: in function `boost::condition_variable::do_wait_until(boost::unique_lock<boost::mutex>&, boost::detail::mono_platform_timepoint const&)':
+pcd_learn.cpp:(.text._ZN5boost18condition_variable13do_wait_untilERNS_11unique_lockINS_5mutexEEERKNS_6detail23mono_platform_timepointE[_ZN5boost18condition_variable13do_wait_untilERNS_11unique_lockINS_5mutexEEERKNS_6detail23mono_platform_timepointE]+0x133): undefined reference to `boost::this_thread::interruption_point()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/pcd_learn.dir/build.make:289：pcd_learn] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pcd_learn.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

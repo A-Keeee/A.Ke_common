@@ -1,0 +1,137 @@
+[0.071s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn -DCMAKE_INSTALL_PREFIX=/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn
+[0.909s] -- The C compiler identification is GNU 11.4.0
+[1.426s] -- The CXX compiler identification is GNU 11.4.0
+[1.582s] -- Detecting C compiler ABI info
+[1.922s] -- Detecting C compiler ABI info - done
+[1.931s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.936s] -- Detecting C compile features
+[1.952s] -- Detecting C compile features - done
+[1.984s] -- Detecting CXX compiler ABI info
+[2.253s] -- Detecting CXX compiler ABI info - done
+[2.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.269s] -- Detecting CXX compile features
+[2.272s] -- Detecting CXX compile features - done
+[2.380s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.960s] -- Found Python3: /home/ake/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[5.702s] -- Checking for module 'eigen3'
+[5.851s] --   Found eigen3, version 3.4.0
+[5.936s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.936s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.206s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[6.359s] -- Checking for module 'libusb-1.0'
+[6.430s] --   Found libusb-1.0, version 1.0.25
+[6.572s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.575s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[6.576s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.739s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[6.739s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.740s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[6.740s] [0m** WARNING ** io features related to png will be disabled[0m
+[7.206s] -- Looking for pthread.h
+[7.463s] -- Looking for pthread.h - found
+[7.463s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.711s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.711s] -- Found Threads: TRUE  
+[7.739s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[7.825s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[8.516s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[8.516s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[8.538s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[8.598s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[8.656s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[8.916s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[9.224s] -- Found X11: /usr/include   
+[9.234s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[9.416s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[9.416s] -- Looking for gethostbyname
+[9.561s] -- Looking for gethostbyname - found
+[9.562s] -- Looking for connect
+[9.691s] -- Looking for connect - found
+[9.692s] -- Looking for remove
+[9.875s] -- Looking for remove - found
+[9.875s] -- Looking for shmat
+[10.112s] -- Looking for shmat - found
+[10.113s] -- Looking for IceConnectionNumber in ICE
+[10.246s] -- Looking for IceConnectionNumber in ICE - found
+[10.518s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[10.526s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[10.544s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[10.550s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[10.596s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[10.632s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[10.638s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[10.671s] -- Found utf8cpp: /usr/include/utf8cpp  
+[10.895s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.972s] -- Checking for module 'flann'
+[11.036s] --   Found flann, version 1.9.1
+[11.131s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[11.132s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[11.152s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.168s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.399s] -- looking for PCL_COMMON
+[11.399s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[11.399s] -- looking for PCL_OCTREE
+[11.400s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[11.401s] -- looking for PCL_IO
+[11.402s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[11.403s] -- looking for PCL_KDTREE
+[11.404s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[11.405s] -- looking for PCL_GEOMETRY
+[11.406s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[11.406s] -- looking for PCL_SEARCH
+[11.408s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[11.409s] -- looking for PCL_VISUALIZATION
+[11.411s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[11.413s] -- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_visualization;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN  
+[12.424s] -- Found Python3: /home/ake/miniconda3/bin/python3 (found suitable version "3.12.4", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed 
+[13.444s] -- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: C HL 
+[13.484s] -- Found NetCDF: /usr/include (found version "4.8.1") 
+[13.492s] -- Found OGG: /usr/lib/x86_64-linux-gnu/libogg.so  
+[13.495s] -- Found THEORA: /usr/lib/x86_64-linux-gnu/libtheora.so  
+[13.621s] -- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.13") 
+[13.704s] -- Found GL2PS: /usr/lib/x86_64-linux-gnu/libgl2ps.so (found suitable version "1.4.2", minimum required is "1.4.2") 
+[13.739s] -- Found SQLite3: /usr/include (found version "3.37.2") 
+[13.768s] -- Found LibPROJ: /usr/lib/x86_64-linux-gnu/libproj.so (found version "8.2.1") 
+[13.954s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.618s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.620s] -- Configured cppcheck include dirs: 
+[14.620s] -- Configured cppcheck exclude dirs and/or files: 
+[14.626s] -- Added test 'lint_cmake' to check CMake code style
+[14.642s] -- Added test 'uncrustify' to check C / C++ code style
+[14.642s] -- Configured uncrustify additional arguments: 
+[14.646s] -- Added test 'xmllint' to check XML markup files
+[14.652s] -- Configuring done
+[15.189s] [33mCMake Warning at CMakeLists.txt:18 (add_executable):
+[15.190s]   Cannot generate a safe runtime search path for target pcd_learn because
+[15.190s]   files in some directories may conflict with libraries in implicit
+[15.190s]   directories:
+[15.191s] 
+[15.191s]     runtime library [libxml2.so.2] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[15.191s]       /home/ake/miniconda3/lib
+[15.191s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[15.191s]       /home/ake/miniconda3/lib
+[15.191s]     runtime library [libsqlite3.so.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[15.191s]       /home/ake/miniconda3/lib
+[15.191s]     runtime library [libexpat.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[15.191s]       /home/ake/miniconda3/lib
+[15.191s]     runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[15.191s]       /home/ake/miniconda3/lib
+[15.193s]     runtime library [liblzma.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[15.193s]       /home/ake/miniconda3/lib
+[15.194s] 
+[15.194s]   Some of these libraries may not be found correctly.
+[15.194s] 
+[15.194s] [0m
+[15.194s] -- Generating done
+[15.196s] -- Build files have been written to: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn
+[15.223s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn -DCMAKE_INSTALL_PREFIX=/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn
+[15.225s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2
+[15.341s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o[0m
+[24.740s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/src/pcd_learn.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[24.741s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/src/pcd_learn.cpp:30:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost::this_thread[m[K’ has not been declared
+[24.741s]    30 |                 boost::[01;31m[Kthis_thread[m[K::sleep(boost::posix_time::microseconds(100000));
+[24.741s]       |                        [01;31m[K^~~~~~~~~~~[m[K
+[26.118s] gmake[2]: *** [CMakeFiles/pcd_learn.dir/build.make:76：CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o] 错误 1
+[26.119s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pcd_learn.dir/all] 错误 2
+[26.119s] gmake: *** [Makefile:146：all] 错误 2
+[26.134s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2

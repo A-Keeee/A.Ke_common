@@ -1,0 +1,26 @@
+[0.028s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target pcd_learn[0m
+[0.232s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o[0m
+[11.162s] [100%] [32m[1mLinking CXX executable pcd_learn[0m
+[12.152s] [100%] Built target pcd_learn
+[12.175s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2
+[12.278s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn
+[12.304s] -- Install configuration: "Debug"
+[12.305s] -- Installing: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/lib/pcd_learn/pcd_learn
+[12.325s] -- Set runtime path of "/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/lib/pcd_learn/pcd_learn" to ""
+[12.326s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/ament_index/resource_index/package_run_dependencies/pcd_learn
+[12.326s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/ament_index/resource_index/parent_prefix_path/pcd_learn
+[12.326s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/environment/ament_prefix_path.sh
+[12.326s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/environment/ament_prefix_path.dsv
+[12.326s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/environment/path.sh
+[12.326s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/environment/path.dsv
+[12.326s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/local_setup.bash
+[12.327s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/local_setup.sh
+[12.327s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/local_setup.zsh
+[12.327s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/local_setup.dsv
+[12.328s] -- Installing: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/package.dsv
+[12.328s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/ament_index/resource_index/packages/pcd_learn
+[12.328s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/cmake/pcd_learnConfig.cmake
+[12.328s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/cmake/pcd_learnConfig-version.cmake
+[12.329s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/install/pcd_learn/share/pcd_learn/package.xml
+[12.334s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn

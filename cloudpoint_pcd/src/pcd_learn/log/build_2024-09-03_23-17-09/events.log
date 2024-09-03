@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000613] (pcd_learn) JobQueued: {'identifier': 'pcd_learn', 'dependencies': OrderedDict()}
+[0.000660] (pcd_learn) JobStarted: {'identifier': 'pcd_learn'}
+[0.032596] (pcd_learn) JobProgress: {'identifier': 'pcd_learn', 'progress': 'cmake'}
+[0.032649] (pcd_learn) JobProgress: {'identifier': 'pcd_learn', 'progress': 'build'}
+[0.032668] (pcd_learn) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn', '--', '-j2', '-l2'], 'cwd': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1221'), ('SYSTEMD_EXEC_PID', '1399'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5041'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21927'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ake/.local/bin:/home/ake/miniconda3/bin:/home/ake/miniconda3/condabin:/opt/ros/humble/bin:/home/ake/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1374,unix/ake-virtual-machine:/tmp/.ICE-unix/1374'), ('INVOCATION_ID', '09c28e8ee82a4d14b46647f05b6d0010'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J8KHT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3bd99d77fe.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ake/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ake/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ake/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101467] (-) TimerEvent: {}
+[0.194655] (pcd_learn) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcd_learn\x1b[0m\n'}
+[0.201771] (-) TimerEvent: {}
+[0.303618] (-) TimerEvent: {}
+[0.307624] (pcd_learn) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o\x1b[0m\n'}
+[0.403904] (-) TimerEvent: {}
+[0.506610] (-) TimerEvent: {}
+[0.608115] (-) TimerEvent: {}
+[0.708662] (-) TimerEvent: {}
+[0.810611] (-) TimerEvent: {}
+[0.910956] (-) TimerEvent: {}
+[1.012751] (-) TimerEvent: {}
+[1.114394] (-) TimerEvent: {}
+[1.215610] (-) TimerEvent: {}
+[1.316184] (-) TimerEvent: {}
+[1.418152] (-) TimerEvent: {}
+[1.518560] (-) TimerEvent: {}
+[1.620607] (-) TimerEvent: {}
+[1.721013] (-) TimerEvent: {}
+[1.822108] (-) TimerEvent: {}
+[1.922991] (-) TimerEvent: {}
+[2.024748] (-) TimerEvent: {}
+[2.125193] (-) TimerEvent: {}
+[2.226166] (-) TimerEvent: {}
+[2.327749] (-) TimerEvent: {}
+[2.428103] (-) TimerEvent: {}
+[2.529800] (-) TimerEvent: {}
+[2.630137] (-) TimerEvent: {}
+[2.732614] (-) TimerEvent: {}
+[2.832950] (-) TimerEvent: {}
+[2.933283] (-) TimerEvent: {}
+[3.034609] (-) TimerEvent: {}
+[3.136029] (-) TimerEvent: {}
+[3.298193] (-) TimerEvent: {}
+[3.401141] (-) TimerEvent: {}
+[3.501502] (-) TimerEvent: {}
+[3.603764] (-) TimerEvent: {}
+[3.704867] (-) TimerEvent: {}
+[3.808709] (-) TimerEvent: {}
+[3.910872] (-) TimerEvent: {}
+[4.011747] (-) TimerEvent: {}
+[4.112749] (-) TimerEvent: {}
+[4.214898] (-) TimerEvent: {}
+[4.315254] (-) TimerEvent: {}
+[4.416620] (-) TimerEvent: {}
+[4.516963] (-) TimerEvent: {}
+[4.618612] (-) TimerEvent: {}
+[4.718995] (-) TimerEvent: {}
+[4.820722] (-) TimerEvent: {}
+[4.921833] (-) TimerEvent: {}
+[5.022215] (-) TimerEvent: {}
+[5.123604] (-) TimerEvent: {}
+[5.223933] (-) TimerEvent: {}
+[5.325912] (-) TimerEvent: {}
+[5.426275] (-) TimerEvent: {}
+[5.528754] (-) TimerEvent: {}
+[5.629096] (-) TimerEvent: {}
+[5.745234] (-) TimerEvent: {}
+[5.845608] (-) TimerEvent: {}
+[5.955900] (-) TimerEvent: {}
+[6.056653] (-) TimerEvent: {}
+[6.157501] (-) TimerEvent: {}
+[6.259341] (-) TimerEvent: {}
+[6.359950] (-) TimerEvent: {}
+[6.461790] (-) TimerEvent: {}
+[6.562174] (-) TimerEvent: {}
+[6.662562] (-) TimerEvent: {}
+[6.762986] (-) TimerEvent: {}
+[6.865690] (-) TimerEvent: {}
+[6.966242] (-) TimerEvent: {}
+[7.066605] (-) TimerEvent: {}
+[7.166960] (-) TimerEvent: {}
+[7.267427] (-) TimerEvent: {}
+[7.367878] (-) TimerEvent: {}
+[7.468265] (-) TimerEvent: {}
+[7.570025] (-) TimerEvent: {}
+[7.670391] (-) TimerEvent: {}
+[7.770830] (-) TimerEvent: {}
+[7.871243] (-) TimerEvent: {}
+[7.972615] (-) TimerEvent: {}
+[8.073051] (-) TimerEvent: {}
+[8.174735] (-) TimerEvent: {}
+[8.275393] (-) TimerEvent: {}
+[8.375785] (-) TimerEvent: {}
+[8.476256] (-) TimerEvent: {}
+[8.577413] (-) TimerEvent: {}
+[8.677832] (-) TimerEvent: {}
+[8.778759] (-) TimerEvent: {}
+[8.880617] (-) TimerEvent: {}
+[8.981977] (-) TimerEvent: {}
+[9.082432] (-) TimerEvent: {}
+[9.184151] (-) TimerEvent: {}
+[9.284609] (-) TimerEvent: {}
+[9.399217] (-) TimerEvent: {}
+[9.502339] (-) TimerEvent: {}
+[9.605070] (-) TimerEvent: {}
+[9.832679] (-) TimerEvent: {}
+[9.933567] (-) TimerEvent: {}
+[10.034591] (-) TimerEvent: {}
+[10.135139] (-) TimerEvent: {}
+[10.235611] (-) TimerEvent: {}
+[10.336263] (-) TimerEvent: {}
+[10.437747] (-) TimerEvent: {}
+[10.538255] (-) TimerEvent: {}
+[10.639894] (-) TimerEvent: {}
+[10.740266] (-) TimerEvent: {}
+[10.846033] (-) TimerEvent: {}
+[10.948429] (-) TimerEvent: {}
+[11.050709] (-) TimerEvent: {}
+[11.151101] (-) TimerEvent: {}
+[11.253754] (-) TimerEvent: {}
+[11.354077] (-) TimerEvent: {}
+[11.454610] (-) TimerEvent: {}
+[11.555618] (-) TimerEvent: {}
+[11.706611] (-) TimerEvent: {}
+[11.812377] (-) TimerEvent: {}
+[11.912785] (-) TimerEvent: {}
+[12.015581] (-) TimerEvent: {}
+[12.125600] (-) TimerEvent: {}
+[12.225945] (-) TimerEvent: {}
+[12.326981] (-) TimerEvent: {}
+[12.428618] (-) TimerEvent: {}
+[12.528971] (-) TimerEvent: {}
+[12.629359] (-) TimerEvent: {}
+[12.729739] (-) TimerEvent: {}
+[12.830119] (-) TimerEvent: {}
+[12.932681] (-) TimerEvent: {}
+[13.033447] (-) TimerEvent: {}
+[13.099774] (pcd_learn) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pcd_learn\x1b[0m\n'}
+[13.133813] (-) TimerEvent: {}
+[13.234211] (-) TimerEvent: {}
+[13.335298] (-) TimerEvent: {}
+[13.436077] (-) TimerEvent: {}
+[13.537068] (-) TimerEvent: {}
+[13.637594] (-) TimerEvent: {}
+[13.739812] (-) TimerEvent: {}
+[13.840201] (-) TimerEvent: {}
+[13.940591] (-) TimerEvent: {}
+[14.042964] (-) TimerEvent: {}
+[14.143331] (-) TimerEvent: {}
+[14.243728] (-) TimerEvent: {}
+[14.344760] (-) TimerEvent: {}
+[14.445364] (-) TimerEvent: {}
+[14.546212] (-) TimerEvent: {}
+[14.649196] (-) TimerEvent: {}
+[14.750322] (-) TimerEvent: {}
+[14.850625] (-) TimerEvent: {}
+[14.951144] (-) TimerEvent: {}
+[15.056400] (-) TimerEvent: {}
+[15.156965] (-) TimerEvent: {}
+[15.260192] (-) TimerEvent: {}
+[15.371730] (-) TimerEvent: {}
+[15.472606] (-) TimerEvent: {}
+[15.572890] (-) TimerEvent: {}
+[15.673324] (-) TimerEvent: {}
+[15.774235] (-) TimerEvent: {}
+[15.874804] (-) TimerEvent: {}
+[15.975281] (-) TimerEvent: {}
+[16.076286] (-) TimerEvent: {}
+[16.177228] (-) TimerEvent: {}
+[16.278659] (-) TimerEvent: {}
+[16.405308] (-) TimerEvent: {}
+[16.506228] (-) TimerEvent: {}
+[16.620859] (-) TimerEvent: {}
+[16.723928] (-) TimerEvent: {}
+[16.826318] (-) TimerEvent: {}
+[16.926710] (-) TimerEvent: {}
+[17.066154] (-) TimerEvent: {}
+[17.166525] (-) TimerEvent: {}
+[17.184713] (pcd_learn) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o: in function `boost::detail::interruption_checker::interruption_checker(pthread_mutex_t*, pthread_cond_t*)':\n"}
+[17.184955] (pcd_learn) StderrLine: {'line': b"pcd_learn.cpp:(.text._ZN5boost6detail20interruption_checkerC2EP15pthread_mutex_tP14pthread_cond_t[_ZN5boost6detail20interruption_checkerC5EP15pthread_mutex_tP14pthread_cond_t]+0x29): undefined reference to `boost::detail::get_current_thread_data()'\n"}
+[17.185079] (pcd_learn) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o: in function `boost::condition_variable::wait(boost::unique_lock<boost::mutex>&)':\n"}
+[17.185238] (pcd_learn) StderrLine: {'line': b"pcd_learn.cpp:(.text._ZN5boost18condition_variable4waitERNS_11unique_lockINS_5mutexEEE[_ZN5boost18condition_variable4waitERNS_11unique_lockINS_5mutexEEE]+0x119): undefined reference to `boost::this_thread::interruption_point()'\n"}
+[17.185369] (pcd_learn) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o: in function `boost::condition_variable::do_wait_until(boost::unique_lock<boost::mutex>&, boost::detail::mono_platform_timepoint const&)':\n"}
+[17.185476] (pcd_learn) StderrLine: {'line': b"pcd_learn.cpp:(.text._ZN5boost18condition_variable13do_wait_untilERNS_11unique_lockINS_5mutexEEERKNS_6detail23mono_platform_timepointE[_ZN5boost18condition_variable13do_wait_untilERNS_11unique_lockINS_5mutexEEERKNS_6detail23mono_platform_timepointE]+0x133): undefined reference to `boost::this_thread::interruption_point()'\n"}
+[17.260368] (pcd_learn) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[17.263058] (pcd_learn) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pcd_learn.dir/build.make:289\xef\xbc\x9apcd_learn] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[17.263577] (pcd_learn) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/pcd_learn.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.264783] (pcd_learn) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.267518] (pcd_learn) CommandEnded: {'returncode': 2}
+[17.268359] (-) TimerEvent: {}
+[17.369093] (-) TimerEvent: {}
+[17.397667] (pcd_learn) JobEnded: {'identifier': 'pcd_learn', 'rc': 2}
+[17.408092] (-) EventReactorShutdown: {}

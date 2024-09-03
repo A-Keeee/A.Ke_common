@@ -1,0 +1,65 @@
+[0.079s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2
+[0.156s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /home/ake/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[1.433s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.510s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.519s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.520s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.520s] [0m** WARNING ** io features related to png will be disabled[0m
+[2.542s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.624s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.629s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.637s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.823s] -- looking for PCL_COMMON
+[2.823s] -- looking for PCL_OCTREE
+[2.823s] -- looking for PCL_IO
+[2.823s] -- looking for PCL_KDTREE
+[2.823s] -- looking for PCL_GEOMETRY
+[2.824s] -- looking for PCL_SEARCH
+[2.824s] -- looking for PCL_VISUALIZATION
+[3.014s] -- Found Python3: /home/ake/miniconda3/bin/python3 (found suitable version "3.12.4", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed 
+[4.405s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[4.409s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.001s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.001s] -- Configured cppcheck include dirs: 
+[5.002s] -- Configured cppcheck exclude dirs and/or files: 
+[5.002s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.015s] -- Added test 'lint_cmake' to check CMake code style
+[5.021s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.050s] -- Added test 'uncrustify' to check C / C++ code style
+[5.050s] -- Configured uncrustify additional arguments: 
+[5.055s] -- Added test 'xmllint' to check XML markup files
+[5.076s] -- Configuring done
+[5.318s] [33mCMake Warning at CMakeLists.txt:20 (add_executable):
+[5.318s]   Cannot generate a safe runtime search path for target pcd_learn because
+[5.318s]   files in some directories may conflict with libraries in implicit
+[5.319s]   directories:
+[5.319s] 
+[5.319s]     runtime library [libxml2.so.2] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.319s]       /home/ake/miniconda3/lib
+[5.319s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.319s]       /home/ake/miniconda3/lib
+[5.319s]     runtime library [libsqlite3.so.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.319s]       /home/ake/miniconda3/lib
+[5.319s]     runtime library [libexpat.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.319s]       /home/ake/miniconda3/lib
+[5.321s]     runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.321s]       /home/ake/miniconda3/lib
+[5.321s]     runtime library [liblzma.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.321s]       /home/ake/miniconda3/lib
+[5.321s] 
+[5.321s]   Some of these libraries may not be found correctly.
+[5.321s] 
+[5.321s] [0m
+[5.339s] -- Generating done
+[5.348s] -- Build files have been written to: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn
+[5.419s] [35m[1mConsolidate compiler generated dependencies of target pcd_learn[0m
+[5.496s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o[0m
+[12.886s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/src/pcd_learn.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[12.887s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/src/pcd_learn.cpp:30:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost::this_thread[m[K’ has not been declared
+[12.887s]    30 |                 boost::[01;31m[Kthis_thread[m[K::sleep(boost::posix_time::microseconds(100000));
+[12.887s]       |                        [01;31m[K^~~~~~~~~~~[m[K
+[13.894s] gmake[2]: *** [CMakeFiles/pcd_learn.dir/build.make:76：CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o] 错误 1
+[13.894s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pcd_learn.dir/all] 错误 2
+[13.895s] gmake: *** [Makefile:146：all] 错误 2
+[13.899s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2

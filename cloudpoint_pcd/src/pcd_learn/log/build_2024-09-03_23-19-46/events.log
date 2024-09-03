@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.001779] (pcd_learn) JobQueued: {'identifier': 'pcd_learn', 'dependencies': OrderedDict()}
+[0.001941] (pcd_learn) JobStarted: {'identifier': 'pcd_learn'}
+[0.017752] (pcd_learn) JobProgress: {'identifier': 'pcd_learn', 'progress': 'cmake'}
+[0.019258] (pcd_learn) JobProgress: {'identifier': 'pcd_learn', 'progress': 'build'}
+[0.020184] (pcd_learn) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn', '--', '-j2', '-l2'], 'cwd': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1221'), ('SYSTEMD_EXEC_PID', '1399'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5041'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21927'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ake/.local/bin:/home/ake/miniconda3/bin:/home/ake/miniconda3/condabin:/opt/ros/humble/bin:/home/ake/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1374,unix/ake-virtual-machine:/tmp/.ICE-unix/1374'), ('INVOCATION_ID', '09c28e8ee82a4d14b46647f05b6d0010'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J8KHT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3bd99d77fe.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ake/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ake/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ake/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100008] (-) TimerEvent: {}
+[0.157984] (pcd_learn) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.201506] (-) TimerEvent: {}
+[0.301857] (-) TimerEvent: {}
+[0.403624] (-) TimerEvent: {}
+[0.479328] (pcd_learn) StdoutLine: {'line': b'-- Found Python3: /home/ake/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter \n'}
+[0.503796] (-) TimerEvent: {}
+[0.604157] (-) TimerEvent: {}
+[0.704614] (-) TimerEvent: {}
+[0.805114] (-) TimerEvent: {}
+[0.906284] (-) TimerEvent: {}
+[1.009710] (-) TimerEvent: {}
+[1.118557] (-) TimerEvent: {}
+[1.218896] (-) TimerEvent: {}
+[1.319820] (-) TimerEvent: {}
+[1.422565] (-) TimerEvent: {}
+[1.435172] (pcd_learn) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.511641] (pcd_learn) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.521222] (pcd_learn) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.521592] (pcd_learn) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.521955] (pcd_learn) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to png will be disabled\x1b[0m\n'}
+[1.522632] (-) TimerEvent: {}
+[1.627689] (-) TimerEvent: {}
+[1.728804] (-) TimerEvent: {}
+[1.830081] (-) TimerEvent: {}
+[1.931527] (-) TimerEvent: {}
+[2.037756] (-) TimerEvent: {}
+[2.138871] (-) TimerEvent: {}
+[2.239965] (-) TimerEvent: {}
+[2.340770] (-) TimerEvent: {}
+[2.441176] (-) TimerEvent: {}
+[2.541670] (-) TimerEvent: {}
+[2.544247] (pcd_learn) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.625857] (pcd_learn) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.630945] (pcd_learn) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.638812] (pcd_learn) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.644533] (-) TimerEvent: {}
+[2.746780] (-) TimerEvent: {}
+[2.824620] (pcd_learn) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.824863] (pcd_learn) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.824984] (pcd_learn) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.825094] (pcd_learn) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.825213] (pcd_learn) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.825386] (pcd_learn) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.825732] (pcd_learn) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.848509] (-) TimerEvent: {}
+[2.948826] (-) TimerEvent: {}
+[3.015579] (pcd_learn) StdoutLine: {'line': b'-- Found Python3: /home/ake/miniconda3/bin/python3 (found suitable version "3.12.4", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed \n'}
+[3.048951] (-) TimerEvent: {}
+[3.149408] (-) TimerEvent: {}
+[3.250268] (-) TimerEvent: {}
+[3.351077] (-) TimerEvent: {}
+[3.451928] (-) TimerEvent: {}
+[3.553706] (-) TimerEvent: {}
+[3.654122] (-) TimerEvent: {}
+[3.754462] (-) TimerEvent: {}
+[3.855653] (-) TimerEvent: {}
+[3.956519] (-) TimerEvent: {}
+[4.057528] (-) TimerEvent: {}
+[4.157854] (-) TimerEvent: {}
+[4.259610] (-) TimerEvent: {}
+[4.359958] (-) TimerEvent: {}
+[4.406968] (pcd_learn) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[4.410604] (pcd_learn) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.460073] (-) TimerEvent: {}
+[4.560417] (-) TimerEvent: {}
+[4.661076] (-) TimerEvent: {}
+[4.762262] (-) TimerEvent: {}
+[4.864825] (-) TimerEvent: {}
+[4.970087] (-) TimerEvent: {}
+[5.003043] (pcd_learn) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.003279] (pcd_learn) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.003390] (pcd_learn) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.004252] (pcd_learn) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.016428] (pcd_learn) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.023298] (pcd_learn) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.051688] (pcd_learn) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.052162] (pcd_learn) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.055897] (pcd_learn) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.072574] (-) TimerEvent: {}
+[5.078028] (pcd_learn) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.172691] (-) TimerEvent: {}
+[5.275116] (-) TimerEvent: {}
+[5.319947] (pcd_learn) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:20 (add_executable):\n'}
+[5.320204] (pcd_learn) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target pcd_learn because\n'}
+[5.320318] (pcd_learn) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[5.320420] (pcd_learn) StderrLine: {'line': b'  directories:\n'}
+[5.320574] (pcd_learn) StderrLine: {'line': b'\n'}
+[5.320676] (pcd_learn) StderrLine: {'line': b'    runtime library [libxml2.so.2] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[5.320773] (pcd_learn) StderrLine: {'line': b'      /home/ake/miniconda3/lib\n'}
+[5.320873] (pcd_learn) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[5.320970] (pcd_learn) StderrLine: {'line': b'      /home/ake/miniconda3/lib\n'}
+[5.321068] (pcd_learn) StderrLine: {'line': b'    runtime library [libsqlite3.so.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[5.321167] (pcd_learn) StderrLine: {'line': b'      /home/ake/miniconda3/lib\n'}
+[5.321261] (pcd_learn) StderrLine: {'line': b'    runtime library [libexpat.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[5.321355] (pcd_learn) StderrLine: {'line': b'      /home/ake/miniconda3/lib\n'}
+[5.322488] (pcd_learn) StderrLine: {'line': b'    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[5.322626] (pcd_learn) StderrLine: {'line': b'      /home/ake/miniconda3/lib\n'}
+[5.322721] (pcd_learn) StderrLine: {'line': b'    runtime library [liblzma.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[5.322814] (pcd_learn) StderrLine: {'line': b'      /home/ake/miniconda3/lib\n'}
+[5.322907] (pcd_learn) StderrLine: {'line': b'\n'}
+[5.322999] (pcd_learn) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[5.323093] (pcd_learn) StderrLine: {'line': b'\n'}
+[5.323184] (pcd_learn) StderrLine: {'line': b'\x1b[0m\n'}
+[5.340884] (pcd_learn) StdoutLine: {'line': b'-- Generating done\n'}
+[5.349526] (pcd_learn) StdoutLine: {'line': b'-- Build files have been written to: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn\n'}
+[5.375352] (-) TimerEvent: {}
+[5.420984] (pcd_learn) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcd_learn\x1b[0m\n'}
+[5.477747] (-) TimerEvent: {}
+[5.497641] (pcd_learn) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o\x1b[0m\n'}
+[5.579031] (-) TimerEvent: {}
+[5.680924] (-) TimerEvent: {}
+[5.781271] (-) TimerEvent: {}
+[5.883532] (-) TimerEvent: {}
+[5.983873] (-) TimerEvent: {}
+[6.084760] (-) TimerEvent: {}
+[6.185636] (-) TimerEvent: {}
+[6.286123] (-) TimerEvent: {}
+[6.389082] (-) TimerEvent: {}
+[6.489437] (-) TimerEvent: {}
+[6.594965] (-) TimerEvent: {}
+[6.695633] (-) TimerEvent: {}
+[6.796077] (-) TimerEvent: {}
+[6.898681] (-) TimerEvent: {}
+[6.999036] (-) TimerEvent: {}
+[7.099384] (-) TimerEvent: {}
+[7.199772] (-) TimerEvent: {}
+[7.300124] (-) TimerEvent: {}
+[7.400496] (-) TimerEvent: {}
+[7.501225] (-) TimerEvent: {}
+[7.602657] (-) TimerEvent: {}
+[7.703145] (-) TimerEvent: {}
+[7.803499] (-) TimerEvent: {}
+[7.904676] (-) TimerEvent: {}
+[8.005159] (-) TimerEvent: {}
+[8.107657] (-) TimerEvent: {}
+[8.208236] (-) TimerEvent: {}
+[8.308636] (-) TimerEvent: {}
+[8.409004] (-) TimerEvent: {}
+[8.509388] (-) TimerEvent: {}
+[8.609757] (-) TimerEvent: {}
+[8.710625] (-) TimerEvent: {}
+[8.810970] (-) TimerEvent: {}
+[8.911669] (-) TimerEvent: {}
+[9.012648] (-) TimerEvent: {}
+[9.114665] (-) TimerEvent: {}
+[9.215035] (-) TimerEvent: {}
+[9.315526] (-) TimerEvent: {}
+[9.415848] (-) TimerEvent: {}
+[9.517161] (-) TimerEvent: {}
+[9.619641] (-) TimerEvent: {}
+[9.722383] (-) TimerEvent: {}
+[9.824549] (-) TimerEvent: {}
+[9.925160] (-) TimerEvent: {}
+[10.026528] (-) TimerEvent: {}
+[10.127295] (-) TimerEvent: {}
+[10.229518] (-) TimerEvent: {}
+[10.329861] (-) TimerEvent: {}
+[10.430219] (-) TimerEvent: {}
+[10.532527] (-) TimerEvent: {}
+[10.632842] (-) TimerEvent: {}
+[10.733200] (-) TimerEvent: {}
+[10.834739] (-) TimerEvent: {}
+[10.937522] (-) TimerEvent: {}
+[11.037801] (-) TimerEvent: {}
+[11.138128] (-) TimerEvent: {}
+[11.238460] (-) TimerEvent: {}
+[11.339570] (-) TimerEvent: {}
+[11.441524] (-) TimerEvent: {}
+[11.544356] (-) TimerEvent: {}
+[11.644827] (-) TimerEvent: {}
+[11.746804] (-) TimerEvent: {}
+[11.847232] (-) TimerEvent: {}
+[11.948517] (-) TimerEvent: {}
+[12.049303] (-) TimerEvent: {}
+[12.150767] (-) TimerEvent: {}
+[12.251831] (-) TimerEvent: {}
+[12.353140] (-) TimerEvent: {}
+[12.454203] (-) TimerEvent: {}
+[12.555519] (-) TimerEvent: {}
+[12.656734] (-) TimerEvent: {}
+[12.757462] (-) TimerEvent: {}
+[12.859686] (-) TimerEvent: {}
+[12.887387] (pcd_learn) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/src/pcd_learn.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.889067] (pcd_learn) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/src/pcd_learn.cpp:30:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kboost::this_thread\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[12.889225] (pcd_learn) StderrLine: {'line': b'   30 |                 boost::\x1b[01;31m\x1b[Kthis_thread\x1b[m\x1b[K::sleep(boost::posix_time::microseconds(100000));\n'}
+[12.889332] (pcd_learn) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.961556] (-) TimerEvent: {}
+[13.061931] (-) TimerEvent: {}
+[13.164612] (-) TimerEvent: {}
+[13.264943] (-) TimerEvent: {}
+[13.365267] (-) TimerEvent: {}
+[13.465764] (-) TimerEvent: {}
+[13.566994] (-) TimerEvent: {}
+[13.669640] (-) TimerEvent: {}
+[13.770018] (-) TimerEvent: {}
+[13.870355] (-) TimerEvent: {}
+[13.895609] (pcd_learn) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pcd_learn.dir/build.make:76\xef\xbc\x9aCMakeFiles/pcd_learn.dir/src/pcd_learn.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[13.896110] (pcd_learn) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/pcd_learn.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.896623] (pcd_learn) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.900481] (pcd_learn) CommandEnded: {'returncode': 2}
+[13.970607] (-) TimerEvent: {}
+[14.029636] (pcd_learn) JobEnded: {'identifier': 'pcd_learn', 'rc': 2}
+[14.041331] (-) EventReactorShutdown: {}

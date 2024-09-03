@@ -1,0 +1,14 @@
+The system is: Linux - 6.8.0-40-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+

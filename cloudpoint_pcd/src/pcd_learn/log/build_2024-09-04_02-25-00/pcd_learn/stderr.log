@@ -1,0 +1,23 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0m** WARNING ** io features related to png will be disabled[0m
+[33mCMake Warning at CMakeLists.txt:20 (add_executable):
+  Cannot generate a safe runtime search path for target pcd_learn because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libxml2.so.2] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/ake/miniconda3/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/ake/miniconda3/lib
+    runtime library [libsqlite3.so.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/ake/miniconda3/lib
+    runtime library [libexpat.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/ake/miniconda3/lib
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/ake/miniconda3/lib
+    runtime library [liblzma.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/ake/miniconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+[0m

@@ -1,0 +1,22 @@
+[0.019s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2
+[0.066s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.320s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.320s]   By not providing "FindPCL.cmake" in CMAKE_MODULE_PATH this project has
+[0.320s]   asked CMake to find a package configuration file provided by "PCL", but
+[0.320s]   CMake did not find one.
+[0.321s] 
+[0.321s]   Could not find a package configuration file provided by "PCL" with any of
+[0.321s]   the following names:
+[0.321s] 
+[0.333s]     PCLConfig.cmake
+[0.333s]     pcl-config.cmake
+[0.333s] 
+[0.334s]   Add the installation prefix of "PCL" to CMAKE_PREFIX_PATH or set "PCL_DIR"
+[0.334s]   to a directory containing one of the above files.  If "PCL" provides a
+[0.334s]   separate development package or SDK, be sure it has been installed.
+[0.334s] 
+[0.334s] [0m
+[0.334s] -- Configuring incomplete, errors occurred!
+[0.334s] See also "/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn/CMakeFiles/CMakeOutput.log".
+[0.336s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.340s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/pcd_learn/build/pcd_learn -- -j2 -l2
