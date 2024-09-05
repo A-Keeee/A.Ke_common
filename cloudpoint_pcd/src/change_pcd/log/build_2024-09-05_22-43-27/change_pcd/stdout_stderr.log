@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target change_pcd[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/change_pcd.dir/src/change_pcd.cpp.o[0m
+[01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:30:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::KdTreeFLANN<pcl::PointXYZ>::Ptr[m[K’ {aka ‘[01m[Kstd::shared_ptr<pcl::KdTreeFLANN<pcl::PointXYZ> >[m[K’} to ‘[01m[Kconst KdTreePtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<pcl::search::Search<pcl::PointXYZ> >&[m[K’}
+   30 |     normal_estimator.setSearchMethod([01;31m[Ktree[m[K);
+      |                                      [01;31m[K^~~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kpcl::KdTreeFLANN<pcl::PointXYZ>::Ptr {aka std::shared_ptr<pcl::KdTreeFLANN<pcl::PointXYZ> >}[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/features/normal_3d.h:45[m[K,
+                 from [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/features/feature.h:167:41:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::Feature<PointInT, PointOutT>::setSearchMethod(const KdTreePtr&) [with PointInT = pcl::PointXYZ; PointOutT = pcl::Normal; pcl::Feature<PointInT, PointOutT>::KdTreePtr = std::shared_ptr<pcl::search::Search<pcl::PointXYZ> >][m[K’
+  167 |       setSearchMethod ([01;36m[Kconst KdTreePtr &tree[m[K) { tree_ = tree; }
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:38:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kpcl::KdTreeFLANN<pcl::PointXYZ>::Ptr[m[K’ {aka ‘[01m[Kstd::shared_ptr<pcl::KdTreeFLANN<pcl::PointXYZ> >[m[K’} to ‘[01m[Kconst KdTreePtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<pcl::search::Search<pcl::PointXYZ> >&[m[K’}
+   38 |     reg.setSearchMethod([01;31m[Ktree[m[K);
+      |                         [01;31m[K^~~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kpcl::KdTreeFLANN<pcl::PointXYZ>::Ptr {aka std::shared_ptr<pcl::KdTreeFLANN<pcl::PointXYZ> >}[m[K
+In file included from [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:4[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/segmentation/region_growing.h:190:41:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid pcl::RegionGrowing<PointT, NormalT>::setSearchMethod(const KdTreePtr&) [with PointT = pcl::PointXYZ; NormalT = pcl::Normal; pcl::RegionGrowing<PointT, NormalT>::KdTreePtr = std::shared_ptr<pcl::search::Search<pcl::PointXYZ> >][m[K’
+  190 |       setSearchMethod ([01;36m[Kconst KdTreePtr& tree[m[K);
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:9:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | int main([01;35m[Kint argc[m[K, char** argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:9:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | int main(int argc, [01;35m[Kchar** argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/change_pcd.dir/build.make:76：CMakeFiles/change_pcd.dir/src/change_pcd.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/change_pcd.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

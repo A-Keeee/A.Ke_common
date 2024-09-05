@@ -1,0 +1,208 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (change_pcd) JobQueued: {'identifier': 'change_pcd', 'dependencies': OrderedDict()}
+[0.000225] (change_pcd) JobStarted: {'identifier': 'change_pcd'}
+[0.015219] (change_pcd) JobProgress: {'identifier': 'change_pcd', 'progress': 'cmake'}
+[0.016076] (change_pcd) JobProgress: {'identifier': 'change_pcd', 'progress': 'build'}
+[0.017947] (change_pcd) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd', '--', '-j2', '-l2'], 'cwd': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/:/usr/lib/jvm/java-11-openjdk-amd64/lib/server/'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1117'), ('SYSTEMD_EXEC_PID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3712'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21708'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ake/miniconda3/bin:/home/ake/miniconda3/condabin:/opt/ros/humble/bin:/home/ake/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1268,unix/ake-virtual-machine:/tmp/.ICE-unix/1268'), ('INVOCATION_ID', '492593c50770408db2d0a79eaa5e1dbc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T69RT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ce330e8312.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ake/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ake/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ake/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd:/opt/ros/humble')]), 'shell': False}
+[0.098950] (-) TimerEvent: {}
+[0.199326] (-) TimerEvent: {}
+[0.300597] (change_pcd) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target change_pcd\x1b[0m\n'}
+[0.300931] (-) TimerEvent: {}
+[0.397789] (change_pcd) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/change_pcd.dir/src/change_pcd.cpp.o\x1b[0m\n'}
+[0.401005] (-) TimerEvent: {}
+[0.501315] (-) TimerEvent: {}
+[0.602364] (-) TimerEvent: {}
+[0.703673] (-) TimerEvent: {}
+[0.805391] (-) TimerEvent: {}
+[0.908035] (-) TimerEvent: {}
+[1.008379] (-) TimerEvent: {}
+[1.108737] (-) TimerEvent: {}
+[1.209046] (-) TimerEvent: {}
+[1.310050] (-) TimerEvent: {}
+[1.410468] (-) TimerEvent: {}
+[1.512144] (-) TimerEvent: {}
+[1.612605] (-) TimerEvent: {}
+[1.713144] (-) TimerEvent: {}
+[1.813595] (-) TimerEvent: {}
+[1.915070] (-) TimerEvent: {}
+[2.016652] (-) TimerEvent: {}
+[2.117893] (-) TimerEvent: {}
+[2.219257] (-) TimerEvent: {}
+[2.321191] (-) TimerEvent: {}
+[2.422066] (-) TimerEvent: {}
+[2.524581] (-) TimerEvent: {}
+[2.625367] (-) TimerEvent: {}
+[2.726156] (-) TimerEvent: {}
+[2.828646] (-) TimerEvent: {}
+[2.930269] (-) TimerEvent: {}
+[3.031327] (-) TimerEvent: {}
+[3.133785] (-) TimerEvent: {}
+[3.234164] (-) TimerEvent: {}
+[3.335046] (-) TimerEvent: {}
+[3.435425] (-) TimerEvent: {}
+[3.537043] (-) TimerEvent: {}
+[3.637406] (-) TimerEvent: {}
+[3.738880] (-) TimerEvent: {}
+[3.839801] (-) TimerEvent: {}
+[3.942035] (-) TimerEvent: {}
+[4.042488] (-) TimerEvent: {}
+[4.142797] (-) TimerEvent: {}
+[4.245042] (-) TimerEvent: {}
+[4.345419] (-) TimerEvent: {}
+[4.446110] (-) TimerEvent: {}
+[4.547012] (-) TimerEvent: {}
+[4.648626] (-) TimerEvent: {}
+[4.750342] (-) TimerEvent: {}
+[4.852047] (-) TimerEvent: {}
+[4.953037] (-) TimerEvent: {}
+[5.053561] (-) TimerEvent: {}
+[5.154359] (-) TimerEvent: {}
+[5.255588] (-) TimerEvent: {}
+[5.356418] (-) TimerEvent: {}
+[5.457886] (-) TimerEvent: {}
+[5.560256] (-) TimerEvent: {}
+[5.661203] (-) TimerEvent: {}
+[5.762185] (-) TimerEvent: {}
+[5.864037] (-) TimerEvent: {}
+[5.964540] (-) TimerEvent: {}
+[6.064996] (-) TimerEvent: {}
+[6.168770] (-) TimerEvent: {}
+[6.269366] (-) TimerEvent: {}
+[6.370314] (-) TimerEvent: {}
+[6.470622] (-) TimerEvent: {}
+[6.571138] (-) TimerEvent: {}
+[6.671562] (-) TimerEvent: {}
+[6.772125] (-) TimerEvent: {}
+[6.872707] (-) TimerEvent: {}
+[6.975033] (-) TimerEvent: {}
+[7.075621] (-) TimerEvent: {}
+[7.176442] (-) TimerEvent: {}
+[7.276980] (-) TimerEvent: {}
+[7.377429] (-) TimerEvent: {}
+[7.477788] (-) TimerEvent: {}
+[7.580173] (-) TimerEvent: {}
+[7.680577] (-) TimerEvent: {}
+[7.780990] (-) TimerEvent: {}
+[7.881364] (-) TimerEvent: {}
+[7.981720] (-) TimerEvent: {}
+[8.082042] (-) TimerEvent: {}
+[8.184177] (-) TimerEvent: {}
+[8.284669] (-) TimerEvent: {}
+[8.385550] (-) TimerEvent: {}
+[8.486112] (-) TimerEvent: {}
+[8.587152] (-) TimerEvent: {}
+[8.696887] (-) TimerEvent: {}
+[8.809364] (-) TimerEvent: {}
+[8.910343] (-) TimerEvent: {}
+[9.037740] (-) TimerEvent: {}
+[9.141053] (-) TimerEvent: {}
+[9.241726] (-) TimerEvent: {}
+[9.365030] (-) TimerEvent: {}
+[9.472232] (-) TimerEvent: {}
+[9.572615] (-) TimerEvent: {}
+[9.673207] (-) TimerEvent: {}
+[9.774159] (-) TimerEvent: {}
+[9.874644] (-) TimerEvent: {}
+[9.975406] (-) TimerEvent: {}
+[10.076258] (-) TimerEvent: {}
+[10.176958] (-) TimerEvent: {}
+[10.277569] (-) TimerEvent: {}
+[10.381387] (-) TimerEvent: {}
+[10.482353] (-) TimerEvent: {}
+[10.583859] (-) TimerEvent: {}
+[10.689567] (-) TimerEvent: {}
+[10.796433] (-) TimerEvent: {}
+[10.903341] (-) TimerEvent: {}
+[11.004363] (-) TimerEvent: {}
+[11.112655] (-) TimerEvent: {}
+[11.217857] (-) TimerEvent: {}
+[11.324167] (-) TimerEvent: {}
+[11.426818] (-) TimerEvent: {}
+[11.527881] (-) TimerEvent: {}
+[11.629310] (-) TimerEvent: {}
+[11.733387] (-) TimerEvent: {}
+[11.834652] (-) TimerEvent: {}
+[11.935213] (-) TimerEvent: {}
+[12.035682] (-) TimerEvent: {}
+[12.139725] (-) TimerEvent: {}
+[12.241607] (-) TimerEvent: {}
+[12.342436] (-) TimerEvent: {}
+[12.442818] (-) TimerEvent: {}
+[12.547675] (-) TimerEvent: {}
+[12.650043] (-) TimerEvent: {}
+[12.751066] (-) TimerEvent: {}
+[12.853375] (-) TimerEvent: {}
+[12.957928] (-) TimerEvent: {}
+[13.059244] (-) TimerEvent: {}
+[13.160014] (-) TimerEvent: {}
+[13.260892] (-) TimerEvent: {}
+[13.363346] (-) TimerEvent: {}
+[13.464149] (-) TimerEvent: {}
+[13.564797] (-) TimerEvent: {}
+[13.665579] (-) TimerEvent: {}
+[13.768423] (-) TimerEvent: {}
+[13.869341] (-) TimerEvent: {}
+[13.969730] (-) TimerEvent: {}
+[14.070163] (-) TimerEvent: {}
+[14.174583] (-) TimerEvent: {}
+[14.275089] (-) TimerEvent: {}
+[14.377374] (-) TimerEvent: {}
+[14.478504] (-) TimerEvent: {}
+[14.586518] (-) TimerEvent: {}
+[14.695307] (-) TimerEvent: {}
+[14.838144] (-) TimerEvent: {}
+[14.941386] (-) TimerEvent: {}
+[15.042440] (-) TimerEvent: {}
+[15.150307] (-) TimerEvent: {}
+[15.259013] (-) TimerEvent: {}
+[15.367397] (-) TimerEvent: {}
+[15.467843] (-) TimerEvent: {}
+[15.568369] (-) TimerEvent: {}
+[15.669011] (-) TimerEvent: {}
+[15.769489] (-) TimerEvent: {}
+[15.881441] (-) TimerEvent: {}
+[15.992375] (-) TimerEvent: {}
+[16.094213] (-) TimerEvent: {}
+[16.195256] (-) TimerEvent: {}
+[16.249430] (change_pcd) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable change_pcd\x1b[0m\n'}
+[16.295514] (-) TimerEvent: {}
+[16.398761] (-) TimerEvent: {}
+[16.499829] (-) TimerEvent: {}
+[16.600189] (-) TimerEvent: {}
+[16.706318] (-) TimerEvent: {}
+[16.807909] (-) TimerEvent: {}
+[16.909639] (-) TimerEvent: {}
+[17.013043] (-) TimerEvent: {}
+[17.113392] (-) TimerEvent: {}
+[17.214171] (-) TimerEvent: {}
+[17.315579] (-) TimerEvent: {}
+[17.416279] (-) TimerEvent: {}
+[17.427469] (change_pcd) StdoutLine: {'line': b'[100%] Built target change_pcd\n'}
+[17.461331] (change_pcd) CommandEnded: {'returncode': 0}
+[17.518287] (-) TimerEvent: {}
+[17.579582] (change_pcd) JobProgress: {'identifier': 'change_pcd', 'progress': 'install'}
+[17.605914] (change_pcd) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd'], 'cwd': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/:/usr/lib/jvm/java-11-openjdk-amd64/lib/server/'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1117'), ('SYSTEMD_EXEC_PID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3712'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21708'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ake/miniconda3/bin:/home/ake/miniconda3/condabin:/opt/ros/humble/bin:/home/ake/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1268,unix/ake-virtual-machine:/tmp/.ICE-unix/1268'), ('INVOCATION_ID', '492593c50770408db2d0a79eaa5e1dbc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T69RT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ce330e8312.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ake/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ake/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ake/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd:/opt/ros/humble')]), 'shell': False}
+[17.619035] (-) TimerEvent: {}
+[17.643752] (change_pcd) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.644084] (change_pcd) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/lib/change_pcd/change_pcd\n'}
+[17.644210] (change_pcd) StdoutLine: {'line': b'-- Set runtime path of "/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/lib/change_pcd/change_pcd" to ""\n'}
+[17.645306] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/ament_index/resource_index/package_run_dependencies/change_pcd\n'}
+[17.645468] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/ament_index/resource_index/parent_prefix_path/change_pcd\n'}
+[17.645581] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/environment/ament_prefix_path.sh\n'}
+[17.648067] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/environment/ament_prefix_path.dsv\n'}
+[17.648316] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/environment/path.sh\n'}
+[17.648436] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/environment/path.dsv\n'}
+[17.648548] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/local_setup.bash\n'}
+[17.648667] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/local_setup.sh\n'}
+[17.648789] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/local_setup.zsh\n'}
+[17.648915] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/local_setup.dsv\n'}
+[17.649064] (change_pcd) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.dsv\n'}
+[17.649170] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/ament_index/resource_index/packages/change_pcd\n'}
+[17.651000] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/cmake/change_pcdConfig.cmake\n'}
+[17.651158] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/cmake/change_pcdConfig-version.cmake\n'}
+[17.651271] (change_pcd) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.xml\n'}
+[17.656060] (change_pcd) CommandEnded: {'returncode': 0}
+[17.719160] (-) TimerEvent: {}
+[17.818677] (change_pcd) JobEnded: {'identifier': 'change_pcd', 'rc': 0}
+[17.819502] (-) TimerEvent: {}
+[17.819612] (-) EventReactorShutdown: {}

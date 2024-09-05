@@ -1,0 +1,317 @@
+[0.000000] (-) TimerEvent: {}
+[0.002298] (change_pcd) JobQueued: {'identifier': 'change_pcd', 'dependencies': OrderedDict()}
+[0.002586] (change_pcd) JobStarted: {'identifier': 'change_pcd'}
+[0.039708] (change_pcd) JobProgress: {'identifier': 'change_pcd', 'progress': 'cmake'}
+[0.041628] (change_pcd) JobProgress: {'identifier': 'change_pcd', 'progress': 'build'}
+[0.043838] (change_pcd) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd', '--', '-j2', '-l2'], 'cwd': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/:/usr/lib/jvm/java-11-openjdk-amd64/lib/server/'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1117'), ('SYSTEMD_EXEC_PID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3712'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21708'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ake/miniconda3/bin:/home/ake/miniconda3/condabin:/opt/ros/humble/bin:/home/ake/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1268,unix/ake-virtual-machine:/tmp/.ICE-unix/1268'), ('INVOCATION_ID', '492593c50770408db2d0a79eaa5e1dbc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T69RT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ce330e8312.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ake/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ake/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ake/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101138] (-) TimerEvent: {}
+[0.201593] (-) TimerEvent: {}
+[0.232480] (change_pcd) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target change_pcd\x1b[0m\n'}
+[0.301722] (-) TimerEvent: {}
+[0.368168] (change_pcd) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/change_pcd.dir/src/change_pcd.cpp.o\x1b[0m\n'}
+[0.401876] (-) TimerEvent: {}
+[0.502578] (-) TimerEvent: {}
+[0.604372] (-) TimerEvent: {}
+[0.706442] (-) TimerEvent: {}
+[0.807378] (-) TimerEvent: {}
+[0.908187] (-) TimerEvent: {}
+[1.009393] (-) TimerEvent: {}
+[1.110733] (-) TimerEvent: {}
+[1.211944] (-) TimerEvent: {}
+[1.314730] (-) TimerEvent: {}
+[1.417524] (-) TimerEvent: {}
+[1.520285] (-) TimerEvent: {}
+[1.624240] (-) TimerEvent: {}
+[1.725174] (-) TimerEvent: {}
+[1.827729] (-) TimerEvent: {}
+[1.928732] (-) TimerEvent: {}
+[2.032767] (-) TimerEvent: {}
+[2.133356] (-) TimerEvent: {}
+[2.234839] (-) TimerEvent: {}
+[2.335192] (-) TimerEvent: {}
+[2.435979] (-) TimerEvent: {}
+[2.536304] (-) TimerEvent: {}
+[2.636661] (-) TimerEvent: {}
+[2.737621] (-) TimerEvent: {}
+[2.838416] (-) TimerEvent: {}
+[2.938963] (-) TimerEvent: {}
+[3.039623] (-) TimerEvent: {}
+[3.140964] (-) TimerEvent: {}
+[3.241414] (-) TimerEvent: {}
+[3.341757] (-) TimerEvent: {}
+[3.443098] (-) TimerEvent: {}
+[3.543931] (-) TimerEvent: {}
+[3.644745] (-) TimerEvent: {}
+[3.745512] (-) TimerEvent: {}
+[3.845844] (-) TimerEvent: {}
+[3.946346] (-) TimerEvent: {}
+[4.046917] (-) TimerEvent: {}
+[4.148088] (-) TimerEvent: {}
+[4.248412] (-) TimerEvent: {}
+[4.349988] (-) TimerEvent: {}
+[4.450555] (-) TimerEvent: {}
+[4.551142] (-) TimerEvent: {}
+[4.651984] (-) TimerEvent: {}
+[4.754875] (-) TimerEvent: {}
+[4.855730] (-) TimerEvent: {}
+[4.956237] (-) TimerEvent: {}
+[5.057014] (-) TimerEvent: {}
+[5.157631] (-) TimerEvent: {}
+[5.258420] (-) TimerEvent: {}
+[5.359167] (-) TimerEvent: {}
+[5.460264] (-) TimerEvent: {}
+[5.561188] (-) TimerEvent: {}
+[5.661731] (-) TimerEvent: {}
+[5.762540] (-) TimerEvent: {}
+[5.863218] (-) TimerEvent: {}
+[5.963920] (-) TimerEvent: {}
+[6.065056] (-) TimerEvent: {}
+[6.165638] (-) TimerEvent: {}
+[6.266163] (-) TimerEvent: {}
+[6.366941] (-) TimerEvent: {}
+[6.467732] (-) TimerEvent: {}
+[6.568131] (-) TimerEvent: {}
+[6.669326] (-) TimerEvent: {}
+[6.769839] (-) TimerEvent: {}
+[6.870289] (-) TimerEvent: {}
+[6.970906] (-) TimerEvent: {}
+[7.071184] (-) TimerEvent: {}
+[7.172914] (-) TimerEvent: {}
+[7.273285] (-) TimerEvent: {}
+[7.374200] (-) TimerEvent: {}
+[7.475708] (-) TimerEvent: {}
+[7.576486] (-) TimerEvent: {}
+[7.677095] (-) TimerEvent: {}
+[7.777565] (-) TimerEvent: {}
+[7.878198] (-) TimerEvent: {}
+[7.979040] (-) TimerEvent: {}
+[8.079627] (-) TimerEvent: {}
+[8.180335] (-) TimerEvent: {}
+[8.280643] (-) TimerEvent: {}
+[8.380970] (-) TimerEvent: {}
+[8.481339] (-) TimerEvent: {}
+[8.581758] (-) TimerEvent: {}
+[8.682161] (-) TimerEvent: {}
+[8.782631] (-) TimerEvent: {}
+[8.883121] (-) TimerEvent: {}
+[8.983612] (-) TimerEvent: {}
+[9.084650] (-) TimerEvent: {}
+[9.186742] (-) TimerEvent: {}
+[9.287193] (-) TimerEvent: {}
+[9.387522] (-) TimerEvent: {}
+[9.488077] (-) TimerEvent: {}
+[9.589108] (-) TimerEvent: {}
+[9.689875] (-) TimerEvent: {}
+[9.790274] (-) TimerEvent: {}
+[9.892711] (-) TimerEvent: {}
+[9.993003] (-) TimerEvent: {}
+[10.093507] (-) TimerEvent: {}
+[10.193998] (-) TimerEvent: {}
+[10.294394] (-) TimerEvent: {}
+[10.394967] (-) TimerEvent: {}
+[10.495578] (-) TimerEvent: {}
+[10.596223] (-) TimerEvent: {}
+[10.696746] (-) TimerEvent: {}
+[10.797312] (-) TimerEvent: {}
+[10.899035] (-) TimerEvent: {}
+[11.003895] (-) TimerEvent: {}
+[11.115233] (-) TimerEvent: {}
+[11.215605] (-) TimerEvent: {}
+[11.316079] (-) TimerEvent: {}
+[11.421371] (-) TimerEvent: {}
+[11.522338] (-) TimerEvent: {}
+[11.623865] (-) TimerEvent: {}
+[11.736860] (-) TimerEvent: {}
+[11.842670] (-) TimerEvent: {}
+[11.943857] (-) TimerEvent: {}
+[12.045653] (-) TimerEvent: {}
+[12.153190] (-) TimerEvent: {}
+[12.253536] (-) TimerEvent: {}
+[12.354028] (-) TimerEvent: {}
+[12.454350] (-) TimerEvent: {}
+[12.554978] (-) TimerEvent: {}
+[12.655786] (-) TimerEvent: {}
+[12.756315] (-) TimerEvent: {}
+[12.857275] (-) TimerEvent: {}
+[12.957744] (-) TimerEvent: {}
+[13.058177] (-) TimerEvent: {}
+[13.158913] (-) TimerEvent: {}
+[13.259324] (-) TimerEvent: {}
+[13.359788] (-) TimerEvent: {}
+[13.460405] (-) TimerEvent: {}
+[13.560902] (-) TimerEvent: {}
+[13.661347] (-) TimerEvent: {}
+[13.761859] (-) TimerEvent: {}
+[13.862233] (-) TimerEvent: {}
+[13.962678] (-) TimerEvent: {}
+[14.063290] (-) TimerEvent: {}
+[14.164731] (-) TimerEvent: {}
+[14.265207] (-) TimerEvent: {}
+[14.365891] (-) TimerEvent: {}
+[14.467994] (-) TimerEvent: {}
+[14.569470] (-) TimerEvent: {}
+[14.670154] (-) TimerEvent: {}
+[14.771591] (-) TimerEvent: {}
+[14.873289] (-) TimerEvent: {}
+[14.974350] (-) TimerEvent: {}
+[15.074971] (-) TimerEvent: {}
+[15.175760] (-) TimerEvent: {}
+[15.276278] (-) TimerEvent: {}
+[15.377017] (-) TimerEvent: {}
+[15.477546] (-) TimerEvent: {}
+[15.579134] (-) TimerEvent: {}
+[15.680269] (-) TimerEvent: {}
+[15.780536] (-) TimerEvent: {}
+[15.881287] (-) TimerEvent: {}
+[15.981672] (-) TimerEvent: {}
+[16.082432] (-) TimerEvent: {}
+[16.183348] (-) TimerEvent: {}
+[16.284850] (-) TimerEvent: {}
+[16.385149] (-) TimerEvent: {}
+[16.487860] (-) TimerEvent: {}
+[16.589405] (-) TimerEvent: {}
+[16.689953] (-) TimerEvent: {}
+[16.790661] (-) TimerEvent: {}
+[16.891295] (-) TimerEvent: {}
+[16.993123] (-) TimerEvent: {}
+[17.095194] (-) TimerEvent: {}
+[17.195516] (-) TimerEvent: {}
+[17.296595] (-) TimerEvent: {}
+[17.397874] (-) TimerEvent: {}
+[17.549586] (-) TimerEvent: {}
+[17.653345] (-) TimerEvent: {}
+[17.753692] (-) TimerEvent: {}
+[17.999617] (-) TimerEvent: {}
+[18.100142] (-) TimerEvent: {}
+[18.201738] (-) TimerEvent: {}
+[18.302071] (-) TimerEvent: {}
+[18.402459] (-) TimerEvent: {}
+[18.502927] (-) TimerEvent: {}
+[18.621131] (-) TimerEvent: {}
+[18.723741] (-) TimerEvent: {}
+[18.987127] (-) TimerEvent: {}
+[19.087697] (-) TimerEvent: {}
+[19.190780] (-) TimerEvent: {}
+[19.291160] (-) TimerEvent: {}
+[19.391530] (-) TimerEvent: {}
+[19.493876] (-) TimerEvent: {}
+[19.594559] (-) TimerEvent: {}
+[19.694918] (-) TimerEvent: {}
+[19.795414] (-) TimerEvent: {}
+[19.896180] (-) TimerEvent: {}
+[19.996643] (-) TimerEvent: {}
+[20.098871] (-) TimerEvent: {}
+[20.199242] (-) TimerEvent: {}
+[20.300463] (-) TimerEvent: {}
+[20.404747] (-) TimerEvent: {}
+[20.505331] (-) TimerEvent: {}
+[20.606081] (-) TimerEvent: {}
+[20.706783] (-) TimerEvent: {}
+[20.807290] (-) TimerEvent: {}
+[20.907686] (-) TimerEvent: {}
+[21.008306] (-) TimerEvent: {}
+[21.109302] (-) TimerEvent: {}
+[21.210040] (-) TimerEvent: {}
+[21.313547] (-) TimerEvent: {}
+[21.414639] (-) TimerEvent: {}
+[21.515087] (-) TimerEvent: {}
+[21.615720] (-) TimerEvent: {}
+[21.716385] (-) TimerEvent: {}
+[21.819387] (-) TimerEvent: {}
+[21.921976] (-) TimerEvent: {}
+[22.025249] (-) TimerEvent: {}
+[22.127500] (-) TimerEvent: {}
+[22.232954] (-) TimerEvent: {}
+[22.334411] (-) TimerEvent: {}
+[22.435184] (-) TimerEvent: {}
+[22.537002] (-) TimerEvent: {}
+[22.637409] (-) TimerEvent: {}
+[22.738132] (-) TimerEvent: {}
+[22.839128] (-) TimerEvent: {}
+[22.942154] (-) TimerEvent: {}
+[23.045073] (-) TimerEvent: {}
+[23.147316] (-) TimerEvent: {}
+[23.247822] (-) TimerEvent: {}
+[23.349205] (-) TimerEvent: {}
+[23.452907] (-) TimerEvent: {}
+[23.554815] (-) TimerEvent: {}
+[23.655485] (-) TimerEvent: {}
+[23.759790] (-) TimerEvent: {}
+[23.860149] (-) TimerEvent: {}
+[23.961370] (-) TimerEvent: {}
+[24.067145] (-) TimerEvent: {}
+[24.168734] (-) TimerEvent: {}
+[24.269096] (-) TimerEvent: {}
+[24.370138] (-) TimerEvent: {}
+[24.471208] (-) TimerEvent: {}
+[24.573736] (-) TimerEvent: {}
+[24.674205] (-) TimerEvent: {}
+[24.744045] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.744247] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:36:105:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[24.744300] (change_pcd) StderrLine: {'line': b'   36 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>\x1b[01;31m\x1b[K(\x1b[m\x1b[Knew pcl::search::KdTree<pcl::PointXYZ>);\n'}
+[24.744350] (change_pcd) StderrLine: {'line': b'      |                                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.744396] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:36:123:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KKdTree\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kpcl::search\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[24.744445] (change_pcd) StderrLine: {'line': b'   36 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>(new pcl::search::\x1b[01;31m\x1b[KKdTree\x1b[m\x1b[K<pcl::PointXYZ>);\n'}
+[24.744490] (change_pcd) StderrLine: {'line': b'      |                                                                                                                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[24.744536] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:36:143:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[24.744581] (change_pcd) StderrLine: {'line': b'   36 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>(new pcl::search::KdTree<pcl::PointXYZ\x1b[01;31m\x1b[K>\x1b[m\x1b[K);\n'}
+[24.744626] (change_pcd) StderrLine: {'line': b'      |                                                                                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.744673] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:36:144:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[24.744739] (change_pcd) StderrLine: {'line': b'   36 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>(new pcl::search::KdTree<pcl::PointXYZ>\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[24.744808] (change_pcd) StderrLine: {'line': b'      |                                                                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.757503] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:38:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNormalEstimation\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[24.757839] (change_pcd) StderrLine: {'line': b'   38 |     pcl::\x1b[01;31m\x1b[KNormalEstimation\x1b[m\x1b[K<pcl::PointXYZ, pcl::Normal> normal_estimator;\n'}
+[24.758484] (change_pcd) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.758725] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:38:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[24.759392] (change_pcd) StderrLine: {'line': b'   38 |     pcl::NormalEstimation<pcl::PointXYZ\x1b[01;31m\x1b[K,\x1b[m\x1b[K pcl::Normal> normal_estimator;\n'}
+[24.759631] (change_pcd) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.760345] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:38:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[24.760771] (change_pcd) StderrLine: {'line': b'   38 |     pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal\x1b[01;31m\x1b[K>\x1b[m\x1b[K normal_estimator;\n'}
+[24.760881] (change_pcd) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[24.774347] (-) TimerEvent: {}
+[24.780817] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:38:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knormal_estimator\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.780995] (change_pcd) StderrLine: {'line': b'   38 |     pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal> \x1b[01;31m\x1b[Knormal_estimator\x1b[m\x1b[K;\n'}
+[24.781101] (change_pcd) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[24.876354] (-) TimerEvent: {}
+[24.977388] (-) TimerEvent: {}
+[25.077909] (-) TimerEvent: {}
+[25.178379] (-) TimerEvent: {}
+[25.279712] (-) TimerEvent: {}
+[25.380133] (-) TimerEvent: {}
+[25.480621] (-) TimerEvent: {}
+[25.581085] (-) TimerEvent: {}
+[25.682048] (-) TimerEvent: {}
+[25.782846] (-) TimerEvent: {}
+[25.884027] (-) TimerEvent: {}
+[25.984398] (-) TimerEvent: {}
+[26.089719] (-) TimerEvent: {}
+[26.192630] (-) TimerEvent: {}
+[26.294727] (-) TimerEvent: {}
+[26.397446] (-) TimerEvent: {}
+[26.547693] (-) TimerEvent: {}
+[26.648042] (-) TimerEvent: {}
+[26.750347] (-) TimerEvent: {}
+[26.850775] (-) TimerEvent: {}
+[26.951429] (-) TimerEvent: {}
+[27.055798] (-) TimerEvent: {}
+[27.156314] (-) TimerEvent: {}
+[27.258731] (-) TimerEvent: {}
+[27.360358] (-) TimerEvent: {}
+[27.466937] (-) TimerEvent: {}
+[27.568297] (-) TimerEvent: {}
+[27.607716] (change_pcd) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/change_pcd.dir/build.make:76\xef\xbc\x9aCMakeFiles/change_pcd.dir/src/change_pcd.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[27.608438] (change_pcd) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/change_pcd.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[27.608584] (change_pcd) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[27.668553] (-) TimerEvent: {}
+[27.771110] (-) TimerEvent: {}
+[27.865205] (change_pcd) CommandEnded: {'returncode': 2}
+[27.871190] (-) TimerEvent: {}
+[27.971873] (-) TimerEvent: {}
+[28.072388] (-) TimerEvent: {}
+[28.176185] (-) TimerEvent: {}
+[28.284821] (-) TimerEvent: {}
+[28.389928] (-) TimerEvent: {}
+[28.492317] (-) TimerEvent: {}
+[28.592966] (-) TimerEvent: {}
+[28.612686] (change_pcd) JobEnded: {'identifier': 'change_pcd', 'rc': 2}
+[28.623297] (-) EventReactorShutdown: {}

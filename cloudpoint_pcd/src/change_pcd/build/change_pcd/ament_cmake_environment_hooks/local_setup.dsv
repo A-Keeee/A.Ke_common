@@ -1,0 +1,2 @@
+source;share/change_pcd/environment/ament_prefix_path.sh
+source;share/change_pcd/environment/path.sh

@@ -1,0 +1,194 @@
+[0.044s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd -DCMAKE_INSTALL_PREFIX=/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd
+[0.991s] -- The C compiler identification is GNU 11.4.0
+[1.557s] -- The CXX compiler identification is GNU 11.4.0
+[1.744s] -- Detecting C compiler ABI info
+[2.074s] -- Detecting C compiler ABI info - done
+[2.087s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.088s] -- Detecting C compile features
+[2.104s] -- Detecting C compile features - done
+[2.157s] -- Detecting CXX compiler ABI info
+[2.509s] -- Detecting CXX compiler ABI info - done
+[2.517s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.518s] -- Detecting CXX compile features
+[2.520s] -- Detecting CXX compile features - done
+[2.675s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.199s] -- Found Python3: /home/ake/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[5.664s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[6.129s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.174s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.220s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.393s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.848s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.870s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.514s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.611s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.711s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.865s] -- Looking for pthread.h
+[8.105s] -- Looking for pthread.h - found
+[8.105s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.355s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.355s] -- Found Threads: TRUE  
+[8.926s] -- Checking for module 'eigen3'
+[8.968s] --   Found eigen3, version 3.4.0
+[9.066s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.066s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.427s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[9.457s] -- Checking for module 'flann'
+[9.527s] --   Found flann, version 1.9.1
+[9.761s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[9.762s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[9.925s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[9.948s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[10.745s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[10.745s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[10.759s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[10.805s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[10.861s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[11.196s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[11.554s] -- Found X11: /usr/include   
+[11.566s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[11.785s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[11.785s] -- Looking for gethostbyname
+[11.941s] -- Looking for gethostbyname - found
+[11.941s] -- Looking for connect
+[12.186s] -- Looking for connect - found
+[12.188s] -- Looking for remove
+[12.394s] -- Looking for remove - found
+[12.394s] -- Looking for shmat
+[12.580s] -- Looking for shmat - found
+[12.580s] -- Looking for IceConnectionNumber in ICE
+[12.820s] -- Looking for IceConnectionNumber in ICE - found
+[13.087s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[13.100s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[13.110s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[13.112s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[13.191s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[13.237s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[13.245s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[13.293s] -- Found utf8cpp: /usr/include/utf8cpp  
+[13.699s] -- Checking for module 'libusb-1.0'
+[13.746s] --   Found libusb-1.0, version 1.0.25
+[13.823s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[13.827s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[13.828s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.053s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[14.055s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[14.058s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[14.350s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[14.365s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.383s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[14.685s] -- Found Qhull version 8.0.2
+[14.924s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.179s] -- looking for PCL_COMMON
+[15.182s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[15.182s] -- looking for PCL_KDTREE
+[15.186s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[15.186s] -- looking for PCL_OCTREE
+[15.186s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[15.187s] -- looking for PCL_SEARCH
+[15.188s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[15.188s] -- looking for PCL_SAMPLE_CONSENSUS
+[15.190s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[15.190s] -- looking for PCL_FILTERS
+[15.190s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[15.191s] -- looking for PCL_2D
+[15.191s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[15.192s] -- looking for PCL_GEOMETRY
+[15.192s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[15.194s] -- looking for PCL_IO
+[15.196s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[15.197s] -- looking for PCL_FEATURES
+[15.197s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[15.198s] -- looking for PCL_ML
+[15.200s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[15.201s] -- looking for PCL_SEGMENTATION
+[15.203s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[15.203s] -- looking for PCL_VISUALIZATION
+[15.204s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[15.205s] -- looking for PCL_SURFACE
+[15.206s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[15.206s] -- looking for PCL_REGISTRATION
+[15.207s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[15.208s] -- looking for PCL_KEYPOINTS
+[15.209s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[15.210s] -- looking for PCL_TRACKING
+[15.210s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[15.211s] -- looking for PCL_RECOGNITION
+[15.212s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[15.213s] -- looking for PCL_STEREO
+[15.214s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[15.215s] -- looking for PCL_APPS
+[15.215s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[15.216s] -- looking for PCL_IN_HAND_SCANNER
+[15.216s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[15.217s] -- looking for PCL_MODELER
+[15.217s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[15.218s] -- looking for PCL_POINT_CLOUD_EDITOR
+[15.218s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[15.220s] -- looking for PCL_OUTOFCORE
+[15.221s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[15.225s] -- looking for PCL_PEOPLE
+[15.225s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[15.229s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[15.342s] -- Found OpenCV: /usr/local (found version "4.10.0") 
+[15.367s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.972s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.973s] -- Configured cppcheck include dirs: 
+[15.973s] -- Configured cppcheck exclude dirs and/or files: 
+[15.980s] -- Added test 'lint_cmake' to check CMake code style
+[15.988s] -- Added test 'uncrustify' to check C / C++ code style
+[15.988s] -- Configured uncrustify additional arguments: 
+[15.989s] -- Added test 'xmllint' to check XML markup files
+[15.996s] -- Configuring done
+[16.820s] [33mCMake Warning at CMakeLists.txt:17 (add_executable):
+[16.820s]   Cannot generate a safe runtime search path for target change_pcd because
+[16.820s]   files in some directories may conflict with libraries in implicit
+[16.820s]   directories:
+[16.820s] 
+[16.820s]     runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[16.823s]       /home/ake/miniconda3/lib
+[16.823s] 
+[16.823s]   Some of these libraries may not be found correctly.
+[16.823s] 
+[16.823s] [0m
+[16.827s] -- Generating done
+[16.836s] -- Build files have been written to: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd
+[16.870s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd -DCMAKE_INSTALL_PREFIX=/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd
+[16.871s] Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd -- -j2 -l2
+[16.986s] [ 50%] [32mBuilding CXX object CMakeFiles/change_pcd.dir/src/change_pcd.cpp.o[0m
+[26.683s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[26.684s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[26.684s]    11 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+[26.684s]       |     [01;31m[K^~~~~~[m[K
+[26.684s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:12:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[26.684s]    12 |     auto node = [01;31m[Krclcpp[m[K::Node::make_shared("pointcloud_processing");
+[26.684s]       |                 [01;31m[K^~~~~~[m[K
+[26.691s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:35:105:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+[26.691s]    35 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>[01;31m[K([m[Knew pcl::search::KdTree<pcl::PointXYZ>);
+[26.691s]       |                                                                                                         [01;31m[K^[m[K
+[26.691s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:35:123:[m[K [01;31m[Kerror: [m[K‘[01m[KKdTree[m[K’ in namespace ‘[01m[Kpcl::search[m[K’ does not name a template type
+[26.691s]    35 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>(new pcl::search::[01;31m[KKdTree[m[K<pcl::PointXYZ>);
+[26.691s]       |                                                                                                                           [01;31m[K^~~~~~[m[K
+[26.691s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:35:143:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[26.691s]    35 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>(new pcl::search::KdTree<pcl::PointXYZ[01;31m[K>[m[K);
+[26.691s]       |                                                                                                                                               [01;31m[K^[m[K
+[26.691s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:35:144:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[26.691s]    35 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>(new pcl::search::KdTree<pcl::PointXYZ>[01;31m[K)[m[K;
+[26.691s]       |                                                                                                                                                [01;31m[K^[m[K
+[26.698s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:37:10:[m[K [01;31m[Kerror: [m[K‘[01m[KNormalEstimation[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+[26.698s]    37 |     pcl::[01;31m[KNormalEstimation[m[K<pcl::PointXYZ, pcl::Normal> normal_estimator;
+[26.698s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[26.698s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:37:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[26.698s]    37 |     pcl::NormalEstimation<pcl::PointXYZ[01;31m[K,[m[K pcl::Normal> normal_estimator;
+[26.698s]       |                                        [01;31m[K^[m[K
+[26.698s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:37:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[26.698s]    37 |     pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal[01;31m[K>[m[K normal_estimator;
+[26.698s]       |                                                     [01;31m[K^[m[K
+[26.706s] [01m[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:37:55:[m[K [01;31m[Kerror: [m[K‘[01m[Knormal_estimator[m[K’ was not declared in this scope
+[26.706s]    37 |     pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal> [01;31m[Knormal_estimator[m[K;
+[26.706s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[27.672s] gmake[2]: *** [CMakeFiles/change_pcd.dir/build.make:76：CMakeFiles/change_pcd.dir/src/change_pcd.cpp.o] 错误 1
+[27.672s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/change_pcd.dir/all] 错误 2
+[27.672s] gmake: *** [Makefile:146：all] 错误 2
+[27.699s] Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd -- -j2 -l2

@@ -1,0 +1,103 @@
+[0.172s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.172s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x767606858850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7676068582b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7676068582b0>>)
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.414s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.414s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'change_pcd'
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.458s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.463s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 313 installed packages in /opt/ros/humble
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'change_pcd' build argument 'cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'change_pcd' build argument 'cmake_target' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'change_pcd' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'change_pcd' build argument 'cmake_clean_cache' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'change_pcd' build argument 'cmake_clean_first' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'change_pcd' build argument 'cmake_force_configure' from command line to 'False'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'change_pcd' build argument 'ament_cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'change_pcd' build argument 'catkin_cmake_args' from command line to 'None'
+[0.538s] Level 5:colcon.colcon_core.verb:set package 'change_pcd' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.538s] DEBUG:colcon.colcon_core.verb:Building package 'change_pcd' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd', 'merge_install': False, 'path': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd', 'symlink_install': False, 'test_result_base': None}
+[0.538s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.539s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.540s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd' with build type 'ament_cmake'
+[0.540s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd'
+[0.542s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd -- -j2 -l2
+[16.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd -- -j2 -l2
+[16.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd
+[16.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(change_pcd)
+[16.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd
+[16.734s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd' for CMake module files
+[16.735s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd' for CMake config files
+[16.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('change_pcd', 'cmake_prefix_path')
+[16.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/hook/cmake_prefix_path.ps1'
+[16.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/hook/cmake_prefix_path.dsv'
+[16.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/hook/cmake_prefix_path.sh'
+[16.759s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/lib'
+[16.759s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/bin'
+[16.760s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/lib/pkgconfig/change_pcd.pc'
+[16.760s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/lib/python3.10/site-packages'
+[16.760s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/bin'
+[16.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.ps1'
+[16.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.dsv'
+[16.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.sh'
+[16.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.bash'
+[16.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.zsh'
+[16.763s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/colcon-core/packages/change_pcd)
+[16.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(change_pcd)
+[16.839s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd' for CMake module files
+[16.839s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd' for CMake config files
+[16.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('change_pcd', 'cmake_prefix_path')
+[16.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/hook/cmake_prefix_path.ps1'
+[16.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/hook/cmake_prefix_path.dsv'
+[16.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/hook/cmake_prefix_path.sh'
+[16.845s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/lib'
+[16.845s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/bin'
+[16.845s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/lib/pkgconfig/change_pcd.pc'
+[16.845s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/lib/python3.10/site-packages'
+[16.845s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/bin'
+[16.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.ps1'
+[16.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.dsv'
+[16.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.sh'
+[16.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.bash'
+[16.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/change_pcd/package.zsh'
+[16.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd/share/colcon-core/packages/change_pcd)
+[16.854s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.856s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.856s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.870s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.905s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/local_setup.ps1'
+[16.910s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/_local_setup_util_ps1.py'
+[16.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/setup.ps1'
+[16.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/local_setup.sh'
+[16.915s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/_local_setup_util_sh.py'
+[16.917s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/setup.sh'
+[16.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/local_setup.bash'
+[16.920s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/setup.bash'
+[16.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/local_setup.zsh'
+[16.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/setup.zsh'

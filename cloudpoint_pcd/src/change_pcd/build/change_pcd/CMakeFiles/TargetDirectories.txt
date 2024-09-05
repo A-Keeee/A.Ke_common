@@ -1,0 +1,10 @@
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/uninstall.dir
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/change_pcd_uninstall.dir
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/change_pcd.dir
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/test.dir
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/edit_cache.dir
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/rebuild_cache.dir
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/list_install_components.dir
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/install.dir
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/install/local.dir
+/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd/CMakeFiles/install/strip.dir

@@ -1,0 +1,475 @@
+[0.000000] (-) TimerEvent: {}
+[0.001371] (change_pcd) JobQueued: {'identifier': 'change_pcd', 'dependencies': OrderedDict()}
+[0.001422] (change_pcd) JobStarted: {'identifier': 'change_pcd'}
+[0.044116] (change_pcd) JobProgress: {'identifier': 'change_pcd', 'progress': 'cmake'}
+[0.044470] (change_pcd) Command: {'cmd': ['/usr/bin/cmake', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd', '-DCMAKE_INSTALL_PREFIX=/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/install/change_pcd'], 'cwd': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/:/usr/lib/jvm/java-11-openjdk-amd64/lib/server/'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1117'), ('SYSTEMD_EXEC_PID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3712'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21708'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ake/miniconda3/bin:/home/ake/miniconda3/condabin:/opt/ros/humble/bin:/home/ake/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1268,unix/ake-virtual-machine:/tmp/.ICE-unix/1268'), ('INVOCATION_ID', '492593c50770408db2d0a79eaa5e1dbc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T69RT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ce330e8312.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ake/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ake/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ake/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100043] (-) TimerEvent: {}
+[0.200428] (-) TimerEvent: {}
+[0.300942] (-) TimerEvent: {}
+[0.401456] (-) TimerEvent: {}
+[0.502030] (-) TimerEvent: {}
+[0.602850] (-) TimerEvent: {}
+[0.703185] (-) TimerEvent: {}
+[0.803797] (-) TimerEvent: {}
+[0.912882] (-) TimerEvent: {}
+[0.991797] (change_pcd) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.012984] (-) TimerEvent: {}
+[1.113310] (-) TimerEvent: {}
+[1.213687] (-) TimerEvent: {}
+[1.315868] (-) TimerEvent: {}
+[1.416358] (-) TimerEvent: {}
+[1.516710] (-) TimerEvent: {}
+[1.558156] (change_pcd) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.616912] (-) TimerEvent: {}
+[1.718373] (-) TimerEvent: {}
+[1.744792] (change_pcd) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.820954] (-) TimerEvent: {}
+[1.921342] (-) TimerEvent: {}
+[2.022803] (-) TimerEvent: {}
+[2.074827] (change_pcd) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.087885] (change_pcd) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.089027] (change_pcd) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.105041] (change_pcd) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.122930] (-) TimerEvent: {}
+[2.158716] (change_pcd) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.223045] (-) TimerEvent: {}
+[2.323608] (-) TimerEvent: {}
+[2.430274] (-) TimerEvent: {}
+[2.510121] (change_pcd) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.518492] (change_pcd) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.519227] (change_pcd) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.520850] (change_pcd) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.530415] (-) TimerEvent: {}
+[2.631864] (-) TimerEvent: {}
+[2.676499] (change_pcd) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.732064] (-) TimerEvent: {}
+[2.832376] (-) TimerEvent: {}
+[2.932676] (-) TimerEvent: {}
+[3.034758] (-) TimerEvent: {}
+[3.135750] (-) TimerEvent: {}
+[3.236392] (-) TimerEvent: {}
+[3.337740] (-) TimerEvent: {}
+[3.438249] (-) TimerEvent: {}
+[3.541777] (-) TimerEvent: {}
+[3.643176] (-) TimerEvent: {}
+[3.746722] (-) TimerEvent: {}
+[3.847268] (-) TimerEvent: {}
+[3.948032] (-) TimerEvent: {}
+[4.049131] (-) TimerEvent: {}
+[4.155993] (-) TimerEvent: {}
+[4.258031] (-) TimerEvent: {}
+[4.361778] (-) TimerEvent: {}
+[4.462370] (-) TimerEvent: {}
+[4.562911] (-) TimerEvent: {}
+[4.664796] (-) TimerEvent: {}
+[4.765784] (-) TimerEvent: {}
+[4.866199] (-) TimerEvent: {}
+[4.967716] (-) TimerEvent: {}
+[5.067995] (-) TimerEvent: {}
+[5.168386] (-) TimerEvent: {}
+[5.199954] (change_pcd) StdoutLine: {'line': b'-- Found Python3: /home/ake/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter \n'}
+[5.268857] (-) TimerEvent: {}
+[5.369614] (-) TimerEvent: {}
+[5.470621] (-) TimerEvent: {}
+[5.571116] (-) TimerEvent: {}
+[5.665504] (change_pcd) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.671304] (-) TimerEvent: {}
+[5.772033] (-) TimerEvent: {}
+[5.872368] (-) TimerEvent: {}
+[5.974919] (-) TimerEvent: {}
+[6.076931] (-) TimerEvent: {}
+[6.129967] (change_pcd) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.174829] (change_pcd) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.177046] (-) TimerEvent: {}
+[6.220943] (change_pcd) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.282948] (-) TimerEvent: {}
+[6.316079] (change_pcd) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.385086] (-) TimerEvent: {}
+[6.394628] (change_pcd) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.485733] (-) TimerEvent: {}
+[6.586972] (-) TimerEvent: {}
+[6.688859] (-) TimerEvent: {}
+[6.789226] (-) TimerEvent: {}
+[6.849546] (change_pcd) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.871051] (change_pcd) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.890910] (-) TimerEvent: {}
+[6.992729] (-) TimerEvent: {}
+[7.093176] (-) TimerEvent: {}
+[7.194763] (-) TimerEvent: {}
+[7.297336] (-) TimerEvent: {}
+[7.397771] (-) TimerEvent: {}
+[7.498131] (-) TimerEvent: {}
+[7.515585] (change_pcd) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.598444] (-) TimerEvent: {}
+[7.611800] (change_pcd) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.699750] (-) TimerEvent: {}
+[7.712733] (change_pcd) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.799877] (-) TimerEvent: {}
+[7.865897] (change_pcd) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.907370] (-) TimerEvent: {}
+[8.009299] (-) TimerEvent: {}
+[8.106162] (change_pcd) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.106776] (change_pcd) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.109376] (-) TimerEvent: {}
+[8.210225] (-) TimerEvent: {}
+[8.310624] (-) TimerEvent: {}
+[8.355793] (change_pcd) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.356763] (change_pcd) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.410866] (-) TimerEvent: {}
+[8.511276] (-) TimerEvent: {}
+[8.611723] (-) TimerEvent: {}
+[8.712157] (-) TimerEvent: {}
+[8.812772] (-) TimerEvent: {}
+[8.913548] (-) TimerEvent: {}
+[8.926896] (change_pcd) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[8.968945] (change_pcd) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[9.014439] (-) TimerEvent: {}
+[9.067286] (change_pcd) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[9.067515] (change_pcd) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[9.114620] (-) TimerEvent: {}
+[9.224276] (-) TimerEvent: {}
+[9.336077] (-) TimerEvent: {}
+[9.427930] (change_pcd) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[9.438721] (-) TimerEvent: {}
+[9.458415] (change_pcd) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[9.528750] (change_pcd) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[9.539748] (-) TimerEvent: {}
+[9.640089] (-) TimerEvent: {}
+[9.740763] (-) TimerEvent: {}
+[9.762710] (change_pcd) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[9.762933] (change_pcd) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[9.840890] (-) TimerEvent: {}
+[9.926412] (change_pcd) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[9.942859] (-) TimerEvent: {}
+[9.948996] (change_pcd) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[10.043759] (-) TimerEvent: {}
+[10.144550] (-) TimerEvent: {}
+[10.245738] (-) TimerEvent: {}
+[10.346164] (-) TimerEvent: {}
+[10.446570] (-) TimerEvent: {}
+[10.548732] (-) TimerEvent: {}
+[10.649125] (-) TimerEvent: {}
+[10.746464] (change_pcd) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[10.746761] (change_pcd) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[10.749226] (-) TimerEvent: {}
+[10.760155] (change_pcd) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[10.806766] (change_pcd) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[10.858804] (-) TimerEvent: {}
+[10.862216] (change_pcd) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[10.959096] (-) TimerEvent: {}
+[11.059583] (-) TimerEvent: {}
+[11.161140] (-) TimerEvent: {}
+[11.196814] (change_pcd) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[11.261739] (-) TimerEvent: {}
+[11.363180] (-) TimerEvent: {}
+[11.465744] (-) TimerEvent: {}
+[11.555640] (change_pcd) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[11.566071] (-) TimerEvent: {}
+[11.566945] (change_pcd) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[11.667508] (-) TimerEvent: {}
+[11.769726] (-) TimerEvent: {}
+[11.785810] (change_pcd) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[11.786026] (change_pcd) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[11.870508] (-) TimerEvent: {}
+[11.942455] (change_pcd) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[11.942709] (change_pcd) StdoutLine: {'line': b'-- Looking for connect\n'}
+[11.970631] (-) TimerEvent: {}
+[12.070989] (-) TimerEvent: {}
+[12.173418] (-) TimerEvent: {}
+[12.187273] (change_pcd) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[12.188945] (change_pcd) StdoutLine: {'line': b'-- Looking for remove\n'}
+[12.273688] (-) TimerEvent: {}
+[12.374396] (-) TimerEvent: {}
+[12.394879] (change_pcd) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[12.395477] (change_pcd) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[12.474494] (-) TimerEvent: {}
+[12.580765] (-) TimerEvent: {}
+[12.581061] (change_pcd) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[12.581236] (change_pcd) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[12.680884] (-) TimerEvent: {}
+[12.781205] (-) TimerEvent: {}
+[12.821144] (change_pcd) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[12.890412] (-) TimerEvent: {}
+[12.991754] (-) TimerEvent: {}
+[13.088551] (change_pcd) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[13.097866] (-) TimerEvent: {}
+[13.101071] (change_pcd) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[13.111417] (change_pcd) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[13.112879] (change_pcd) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[13.192389] (change_pcd) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[13.206908] (-) TimerEvent: {}
+[13.238130] (change_pcd) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[13.245798] (change_pcd) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[13.294344] (change_pcd) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[13.309979] (-) TimerEvent: {}
+[13.411438] (-) TimerEvent: {}
+[13.512820] (-) TimerEvent: {}
+[13.614602] (-) TimerEvent: {}
+[13.700309] (change_pcd) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[13.714876] (-) TimerEvent: {}
+[13.747468] (change_pcd) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[13.816742] (-) TimerEvent: {}
+[13.824069] (change_pcd) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[13.828434] (change_pcd) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[13.829593] (change_pcd) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[13.916861] (-) TimerEvent: {}
+[14.017917] (-) TimerEvent: {}
+[14.054288] (change_pcd) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[14.055897] (change_pcd) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[14.058699] (change_pcd) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[14.118645] (-) TimerEvent: {}
+[14.223362] (-) TimerEvent: {}
+[14.323802] (-) TimerEvent: {}
+[14.351493] (change_pcd) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[14.366294] (change_pcd) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[14.384008] (change_pcd) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[14.424238] (-) TimerEvent: {}
+[14.525787] (-) TimerEvent: {}
+[14.628242] (-) TimerEvent: {}
+[14.685961] (change_pcd) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[14.728403] (-) TimerEvent: {}
+[14.829745] (-) TimerEvent: {}
+[14.925434] (change_pcd) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[14.930188] (-) TimerEvent: {}
+[15.038412] (-) TimerEvent: {}
+[15.138733] (-) TimerEvent: {}
+[15.179955] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[15.183080] (change_pcd) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[15.183253] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[15.186889] (change_pcd) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[15.187099] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[15.187413] (change_pcd) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[15.187856] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[15.188915] (change_pcd) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[15.189357] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[15.191452] (change_pcd) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[15.191594] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[15.191796] (change_pcd) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[15.192243] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[15.192721] (change_pcd) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[15.193542] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[15.193744] (change_pcd) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[15.194910] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[15.197707] (change_pcd) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[15.197907] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[15.198499] (change_pcd) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[15.199434] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[15.201646] (change_pcd) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[15.202117] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[15.203958] (change_pcd) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[15.204219] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[15.205770] (change_pcd) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[15.205967] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[15.207037] (change_pcd) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[15.207560] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[15.208693] (change_pcd) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[15.209209] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[15.210250] (change_pcd) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[15.211572] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[15.211793] (change_pcd) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[15.212248] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[15.213690] (change_pcd) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[15.213894] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[15.214926] (change_pcd) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[15.216152] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[15.216338] (change_pcd) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[15.217235] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[15.217732] (change_pcd) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[15.218118] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[15.218599] (change_pcd) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[15.219448] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[15.219646] (change_pcd) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[15.220971] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[15.221967] (change_pcd) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[15.226028] (change_pcd) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[15.226193] (change_pcd) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[15.227972] (change_pcd) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[15.240245] (-) TimerEvent: {}
+[15.341903] (-) TimerEvent: {}
+[15.343082] (change_pcd) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.10.0") \n'}
+[15.368375] (change_pcd) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.443186] (-) TimerEvent: {}
+[15.544158] (-) TimerEvent: {}
+[15.645197] (-) TimerEvent: {}
+[15.748026] (-) TimerEvent: {}
+[15.849404] (-) TimerEvent: {}
+[15.949887] (-) TimerEvent: {}
+[15.973623] (change_pcd) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.974014] (change_pcd) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[15.974135] (change_pcd) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.980641] (change_pcd) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.989051] (change_pcd) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.989244] (change_pcd) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.990100] (change_pcd) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.997683] (change_pcd) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.050013] (-) TimerEvent: {}
+[16.158412] (-) TimerEvent: {}
+[16.259159] (-) TimerEvent: {}
+[16.359868] (-) TimerEvent: {}
+[16.460813] (-) TimerEvent: {}
+[16.561168] (-) TimerEvent: {}
+[16.661793] (-) TimerEvent: {}
+[16.763734] (-) TimerEvent: {}
+[16.820869] (change_pcd) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:17 (add_executable):\n'}
+[16.821086] (change_pcd) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target change_pcd because\n'}
+[16.821192] (change_pcd) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[16.821289] (change_pcd) StderrLine: {'line': b'  directories:\n'}
+[16.821384] (change_pcd) StderrLine: {'line': b'\n'}
+[16.821480] (change_pcd) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[16.824048] (change_pcd) StderrLine: {'line': b'      /home/ake/miniconda3/lib\n'}
+[16.824259] (change_pcd) StderrLine: {'line': b'\n'}
+[16.824367] (change_pcd) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[16.824468] (change_pcd) StderrLine: {'line': b'\n'}
+[16.824564] (change_pcd) StderrLine: {'line': b'\x1b[0m\n'}
+[16.828190] (change_pcd) StdoutLine: {'line': b'-- Generating done\n'}
+[16.836753] (change_pcd) StdoutLine: {'line': b'-- Build files have been written to: /home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd\n'}
+[16.863856] (-) TimerEvent: {}
+[16.867909] (change_pcd) CommandEnded: {'returncode': 0}
+[16.871307] (change_pcd) JobProgress: {'identifier': 'change_pcd', 'progress': 'build'}
+[16.871415] (change_pcd) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd', '--', '-j2', '-l2'], 'cwd': '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/:/usr/lib/jvm/java-11-openjdk-amd64/lib/server/'), ('HOME', '/home/ake'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1117'), ('SYSTEMD_EXEC_PID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3712'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('JOURNAL_STREAM', '8:21708'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ake/miniconda3/bin:/home/ake/miniconda3/condabin:/opt/ros/humble/bin:/home/ake/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1268,unix/ake-virtual-machine:/tmp/.ICE-unix/1268'), ('INVOCATION_ID', '492593c50770408db2d0a79eaa5e1dbc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T69RT2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ce330e8312.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ake/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/build/change_pcd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ake/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/ake/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.963975] (-) TimerEvent: {}
+[16.986794] (change_pcd) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/change_pcd.dir/src/change_pcd.cpp.o\x1b[0m\n'}
+[17.065009] (-) TimerEvent: {}
+[17.167383] (-) TimerEvent: {}
+[17.270492] (-) TimerEvent: {}
+[17.371292] (-) TimerEvent: {}
+[17.481021] (-) TimerEvent: {}
+[17.582414] (-) TimerEvent: {}
+[17.684346] (-) TimerEvent: {}
+[17.787254] (-) TimerEvent: {}
+[17.888130] (-) TimerEvent: {}
+[17.989027] (-) TimerEvent: {}
+[18.090214] (-) TimerEvent: {}
+[18.193237] (-) TimerEvent: {}
+[18.294737] (-) TimerEvent: {}
+[18.395072] (-) TimerEvent: {}
+[18.495441] (-) TimerEvent: {}
+[18.595904] (-) TimerEvent: {}
+[18.696253] (-) TimerEvent: {}
+[18.797843] (-) TimerEvent: {}
+[18.898207] (-) TimerEvent: {}
+[18.998567] (-) TimerEvent: {}
+[19.098997] (-) TimerEvent: {}
+[19.200912] (-) TimerEvent: {}
+[19.301306] (-) TimerEvent: {}
+[19.401664] (-) TimerEvent: {}
+[19.502930] (-) TimerEvent: {}
+[19.603748] (-) TimerEvent: {}
+[19.707881] (-) TimerEvent: {}
+[19.808230] (-) TimerEvent: {}
+[19.908518] (-) TimerEvent: {}
+[20.008845] (-) TimerEvent: {}
+[20.109819] (-) TimerEvent: {}
+[20.210213] (-) TimerEvent: {}
+[20.311735] (-) TimerEvent: {}
+[20.412561] (-) TimerEvent: {}
+[20.514533] (-) TimerEvent: {}
+[20.617129] (-) TimerEvent: {}
+[20.717873] (-) TimerEvent: {}
+[20.819001] (-) TimerEvent: {}
+[20.921734] (-) TimerEvent: {}
+[21.022072] (-) TimerEvent: {}
+[21.122441] (-) TimerEvent: {}
+[21.223535] (-) TimerEvent: {}
+[21.323950] (-) TimerEvent: {}
+[21.424313] (-) TimerEvent: {}
+[21.524916] (-) TimerEvent: {}
+[21.627718] (-) TimerEvent: {}
+[21.728030] (-) TimerEvent: {}
+[21.830709] (-) TimerEvent: {}
+[21.931008] (-) TimerEvent: {}
+[22.034711] (-) TimerEvent: {}
+[22.135010] (-) TimerEvent: {}
+[22.241610] (-) TimerEvent: {}
+[22.347695] (-) TimerEvent: {}
+[22.448019] (-) TimerEvent: {}
+[22.548354] (-) TimerEvent: {}
+[22.648714] (-) TimerEvent: {}
+[22.755464] (-) TimerEvent: {}
+[22.856725] (-) TimerEvent: {}
+[22.958371] (-) TimerEvent: {}
+[23.060741] (-) TimerEvent: {}
+[23.161661] (-) TimerEvent: {}
+[23.274516] (-) TimerEvent: {}
+[23.375805] (-) TimerEvent: {}
+[23.476726] (-) TimerEvent: {}
+[23.579906] (-) TimerEvent: {}
+[23.680423] (-) TimerEvent: {}
+[23.781738] (-) TimerEvent: {}
+[23.885012] (-) TimerEvent: {}
+[23.991343] (-) TimerEvent: {}
+[24.107471] (-) TimerEvent: {}
+[24.207884] (-) TimerEvent: {}
+[24.310235] (-) TimerEvent: {}
+[24.415034] (-) TimerEvent: {}
+[24.516316] (-) TimerEvent: {}
+[24.617476] (-) TimerEvent: {}
+[24.721266] (-) TimerEvent: {}
+[24.824210] (-) TimerEvent: {}
+[24.924938] (-) TimerEvent: {}
+[25.025378] (-) TimerEvent: {}
+[25.128893] (-) TimerEvent: {}
+[25.230603] (-) TimerEvent: {}
+[25.335189] (-) TimerEvent: {}
+[25.437777] (-) TimerEvent: {}
+[25.540900] (-) TimerEvent: {}
+[25.698084] (-) TimerEvent: {}
+[25.800317] (-) TimerEvent: {}
+[25.900898] (-) TimerEvent: {}
+[26.009959] (-) TimerEvent: {}
+[26.110836] (-) TimerEvent: {}
+[26.213741] (-) TimerEvent: {}
+[26.318760] (-) TimerEvent: {}
+[26.426473] (-) TimerEvent: {}
+[26.528543] (-) TimerEvent: {}
+[26.630879] (-) TimerEvent: {}
+[26.684772] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.684938] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:11:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[26.684993] (change_pcd) StderrLine: {'line': b'   11 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::init(argc, argv);\n'}
+[26.685040] (change_pcd) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[26.685085] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:12:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[26.685131] (change_pcd) StderrLine: {'line': b'   12 |     auto node = \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Node::make_shared("pointcloud_processing");\n'}
+[26.685176] (change_pcd) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[26.692305] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:35:105:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[26.692395] (change_pcd) StderrLine: {'line': b'   35 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>\x1b[01;31m\x1b[K(\x1b[m\x1b[Knew pcl::search::KdTree<pcl::PointXYZ>);\n'}
+[26.692448] (change_pcd) StderrLine: {'line': b'      |                                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.692495] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:35:123:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KKdTree\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kpcl::search\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[26.692541] (change_pcd) StderrLine: {'line': b'   35 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>(new pcl::search::\x1b[01;31m\x1b[KKdTree\x1b[m\x1b[K<pcl::PointXYZ>);\n'}
+[26.692586] (change_pcd) StderrLine: {'line': b'      |                                                                                                                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[26.692632] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:35:143:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[26.692691] (change_pcd) StderrLine: {'line': b'   35 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>(new pcl::search::KdTree<pcl::PointXYZ\x1b[01;31m\x1b[K>\x1b[m\x1b[K);\n'}
+[26.692737] (change_pcd) StderrLine: {'line': b'      |                                                                                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.692781] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:35:144:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[26.692827] (change_pcd) StderrLine: {'line': b'   35 |     pcl::search::Search<pcl::PointXYZ>::Ptr tree = boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>(new pcl::search::KdTree<pcl::PointXYZ>\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[26.692882] (change_pcd) StderrLine: {'line': b'      |                                                                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.698889] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:37:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNormalEstimation\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.698976] (change_pcd) StderrLine: {'line': b'   37 |     pcl::\x1b[01;31m\x1b[KNormalEstimation\x1b[m\x1b[K<pcl::PointXYZ, pcl::Normal> normal_estimator;\n'}
+[26.699027] (change_pcd) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.699074] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:37:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[26.699120] (change_pcd) StderrLine: {'line': b'   37 |     pcl::NormalEstimation<pcl::PointXYZ\x1b[01;31m\x1b[K,\x1b[m\x1b[K pcl::Normal> normal_estimator;\n'}
+[26.699165] (change_pcd) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.699209] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:37:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[26.699262] (change_pcd) StderrLine: {'line': b'   37 |     pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal\x1b[01;31m\x1b[K>\x1b[m\x1b[K normal_estimator;\n'}
+[26.699306] (change_pcd) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.707763] (change_pcd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ake/A.Ke/A.Ke_common/cloudpoint_pcd/src/change_pcd/src/change_pcd.cpp:37:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knormal_estimator\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[26.707843] (change_pcd) StderrLine: {'line': b'   37 |     pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal> \x1b[01;31m\x1b[Knormal_estimator\x1b[m\x1b[K;\n'}
+[26.707893] (change_pcd) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.735815] (-) TimerEvent: {}
+[26.836338] (-) TimerEvent: {}
+[26.949646] (-) TimerEvent: {}
+[27.050072] (-) TimerEvent: {}
+[27.150740] (-) TimerEvent: {}
+[27.251177] (-) TimerEvent: {}
+[27.362037] (-) TimerEvent: {}
+[27.462400] (-) TimerEvent: {}
+[27.563207] (-) TimerEvent: {}
+[27.669220] (-) TimerEvent: {}
+[27.673073] (change_pcd) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/change_pcd.dir/build.make:76\xef\xbc\x9aCMakeFiles/change_pcd.dir/src/change_pcd.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[27.673346] (change_pcd) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/change_pcd.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[27.673720] (change_pcd) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[27.699951] (change_pcd) CommandEnded: {'returncode': 2}
+[27.770113] (-) TimerEvent: {}
+[27.878668] (-) TimerEvent: {}
+[27.978971] (-) TimerEvent: {}
+[28.015255] (change_pcd) JobEnded: {'identifier': 'change_pcd', 'rc': 2}
+[28.025965] (-) EventReactorShutdown: {}

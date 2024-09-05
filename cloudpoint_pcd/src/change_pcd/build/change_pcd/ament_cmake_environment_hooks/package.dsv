@@ -1,0 +1,4 @@
+source;share/change_pcd/local_setup.bash
+source;share/change_pcd/local_setup.dsv
+source;share/change_pcd/local_setup.sh
+source;share/change_pcd/local_setup.zsh
