@@ -1,0 +1,10 @@
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/uninstall.dir
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/opencv_learn_uninstall.dir
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/opencv_learn.dir
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/test.dir
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/edit_cache.dir
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/rebuild_cache.dir
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/list_install_components.dir
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/install.dir
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/install/local.dir
+/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn/CMakeFiles/install/strip.dir

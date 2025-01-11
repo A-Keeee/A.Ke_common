@@ -1,0 +1,54 @@
+[0.091s] Invoking command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ake/A.Ke/A.Ke_common/opencv_learn -DCMAKE_INSTALL_PREFIX=/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn
+[4.009s] -- The C compiler identification is GNU 11.4.0
+[4.279s] -- The CXX compiler identification is GNU 11.4.0
+[4.344s] -- Detecting C compiler ABI info
+[6.409s] -- Detecting C compiler ABI info - done
+[6.415s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.439s] -- Detecting C compile features
+[6.458s] -- Detecting C compile features - done
+[6.475s] -- Detecting CXX compiler ABI info
+[6.750s] -- Detecting CXX compiler ABI info - done
+[6.758s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.760s] -- Detecting CXX compile features
+[6.763s] -- Detecting CXX compile features - done
+[6.931s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[12.802s] -- Found Python3: /home/ake/miniconda3/bin/python3 (found version "3.12.4") found components: Interpreter 
+[13.228s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[13.467s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[13.468s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[13.509s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[13.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.791s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.800s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.266s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[14.334s] -- Found FastRTPS: /opt/ros/humble/include  
+[14.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.581s] -- Looking for pthread.h
+[15.012s] -- Looking for pthread.h - found
+[15.012s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.420s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.422s] -- Found Threads: TRUE  
+[15.531s] -- Found OpenCV: /usr/local (found version "4.10.0") 
+[15.534s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.705s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.705s] -- Configured cppcheck include dirs: 
+[15.705s] -- Configured cppcheck exclude dirs and/or files: 
+[15.709s] -- Added test 'lint_cmake' to check CMake code style
+[15.713s] -- Added test 'uncrustify' to check C / C++ code style
+[15.713s] -- Configured uncrustify additional arguments: 
+[15.714s] -- Added test 'xmllint' to check XML markup files
+[15.722s] -- Configuring done
+[15.840s] -- Generating done
+[15.855s] -- Build files have been written to: /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn
+[15.890s] Invoked command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/ake/A.Ke/A.Ke_common/opencv_learn -DCMAKE_INSTALL_PREFIX=/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn
+[15.890s] Invoking command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn -- -j2 -l2
+[16.018s] [ 50%] [32mBuilding CXX object CMakeFiles/opencv_learn.dir/src/opencv_learn.cpp.o[0m
+[72.147s] [01m[K/home/ake/A.Ke/A.Ke_common/opencv_learn/src/opencv_learn.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[72.148s] [01m[K/home/ake/A.Ke/A.Ke_common/opencv_learn/src/opencv_learn.cpp:189:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmethod_choice[m[K’ was not declared in this scope
+[72.157s]   189 |         if ([01;31m[Kmethod_choice[m[K == 0) {
+[72.158s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[73.750s] gmake[2]: *** [CMakeFiles/opencv_learn.dir/build.make:76：CMakeFiles/opencv_learn.dir/src/opencv_learn.cpp.o] 错误 1
+[73.750s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/opencv_learn.dir/all] 错误 2
+[73.751s] gmake: *** [Makefile:146：all] 错误 2
+[73.767s] Invoked command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn -- -j2 -l2

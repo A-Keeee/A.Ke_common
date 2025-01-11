@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.000663] (opencv_learn) JobQueued: {'identifier': 'opencv_learn', 'dependencies': OrderedDict()}
+[0.000708] (opencv_learn) JobStarted: {'identifier': 'opencv_learn'}
+[0.000767] (opencv_learn) JobProgress: {'identifier': 'opencv_learn', 'progress': 'cmake'}
+[0.000788] (opencv_learn) JobProgress: {'identifier': 'opencv_learn', 'progress': 'build'}
+[0.000808] (opencv_learn) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn', '--', '-j2', '-l2'], 'cwd': '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://192.168.154.1:7080/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('all_proxy', 'socks://192.168.154.1:7080/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/:/usr/lib/jvm/java-11-openjdk-amd64/lib/server/'), ('HOME', '/home/ake'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1336'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=625c8113b50d8775e12393fd6782546b'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.154.1:7080/'), ('COLCON_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/opencv_learn/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('ALL_PROXY', 'socks://192.168.154.1:7080/'), ('http_proxy', 'http://192.168.154.1:7080/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ake/miniconda3/bin:/home/ake/miniconda3/condabin:/opt/ros/humble/bin:/home/ake/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1336,unix/ake-virtual-machine:/tmp/.ICE-unix/1336'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://192.168.154.1:7080/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19a4bd46_7100_4c18_955b_f2a4388ee03d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OMT8Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.204'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ake/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ake/miniconda3/bin/conda'), ('FTP_PROXY', 'http://192.168.154.1:7080/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=625c8113b50d8775e12393fd6782546b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.154.1:7080/'), ('CONDA_PREFIX', '/home/ake/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn:/opt/ros/humble')]), 'shell': False}
+[0.074926] (-) TimerEvent: {}
+[0.096826] (opencv_learn) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target opencv_learn\x1b[0m\n'}
+[0.130055] (opencv_learn) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/opencv_learn.dir/src/opencv_learn.cpp.o\x1b[0m\n'}
+[0.176481] (-) TimerEvent: {}
+[0.276949] (-) TimerEvent: {}
+[0.378601] (-) TimerEvent: {}
+[0.479094] (-) TimerEvent: {}
+[0.581616] (-) TimerEvent: {}
+[0.685731] (-) TimerEvent: {}
+[0.790048] (-) TimerEvent: {}
+[0.890910] (-) TimerEvent: {}
+[0.991711] (-) TimerEvent: {}
+[1.092312] (-) TimerEvent: {}
+[1.193664] (-) TimerEvent: {}
+[1.294477] (-) TimerEvent: {}
+[1.395044] (-) TimerEvent: {}
+[1.495907] (-) TimerEvent: {}
+[1.596624] (-) TimerEvent: {}
+[1.697736] (-) TimerEvent: {}
+[1.798493] (-) TimerEvent: {}
+[1.904652] (-) TimerEvent: {}
+[2.031295] (-) TimerEvent: {}
+[2.141212] (-) TimerEvent: {}
+[2.257366] (-) TimerEvent: {}
+[2.382613] (-) TimerEvent: {}
+[2.493909] (-) TimerEvent: {}
+[2.607920] (-) TimerEvent: {}
+[2.713737] (-) TimerEvent: {}
+[2.816711] (-) TimerEvent: {}
+[2.923463] (-) TimerEvent: {}
+[3.033773] (-) TimerEvent: {}
+[3.134209] (-) TimerEvent: {}
+[3.309129] (-) TimerEvent: {}
+[3.427243] (-) TimerEvent: {}
+[3.528323] (-) TimerEvent: {}
+[3.638943] (-) TimerEvent: {}
+[3.739673] (-) TimerEvent: {}
+[3.843191] (-) TimerEvent: {}
+[3.950057] (-) TimerEvent: {}
+[4.079603] (-) TimerEvent: {}
+[4.189098] (-) TimerEvent: {}
+[4.295553] (-) TimerEvent: {}
+[4.407598] (-) TimerEvent: {}
+[4.535288] (-) TimerEvent: {}
+[4.647647] (-) TimerEvent: {}
+[4.749976] (-) TimerEvent: {}
+[4.904877] (-) TimerEvent: {}
+[5.059310] (-) TimerEvent: {}
+[5.162834] (-) TimerEvent: {}
+[5.263354] (-) TimerEvent: {}
+[5.375675] (-) TimerEvent: {}
+[5.506669] (-) TimerEvent: {}
+[5.610001] (-) TimerEvent: {}
+[5.717908] (-) TimerEvent: {}
+[5.826046] (-) TimerEvent: {}
+[5.926372] (-) TimerEvent: {}
+[6.040136] (-) TimerEvent: {}
+[6.150024] (-) TimerEvent: {}
+[6.276494] (-) TimerEvent: {}
+[6.386735] (-) TimerEvent: {}
+[6.487250] (-) TimerEvent: {}
+[6.587674] (-) TimerEvent: {}
+[6.691140] (-) TimerEvent: {}
+[6.791480] (-) TimerEvent: {}
+[6.894447] (-) TimerEvent: {}
+[6.998262] (-) TimerEvent: {}
+[7.109032] (-) TimerEvent: {}
+[7.214108] (-) TimerEvent: {}
+[7.317061] (-) TimerEvent: {}
+[7.422103] (-) TimerEvent: {}
+[7.527380] (-) TimerEvent: {}
+[7.634816] (-) TimerEvent: {}
+[7.740052] (-) TimerEvent: {}
+[7.843742] (-) TimerEvent: {}
+[7.945567] (-) TimerEvent: {}
+[8.057165] (-) TimerEvent: {}
+[8.157797] (-) TimerEvent: {}
+[8.258658] (-) TimerEvent: {}
+[8.359240] (-) TimerEvent: {}
+[8.459883] (-) TimerEvent: {}
+[8.560551] (-) TimerEvent: {}
+[8.660920] (-) TimerEvent: {}
+[8.761555] (-) TimerEvent: {}
+[8.861905] (-) TimerEvent: {}
+[8.962398] (-) TimerEvent: {}
+[9.063362] (-) TimerEvent: {}
+[9.164070] (-) TimerEvent: {}
+[9.266576] (-) TimerEvent: {}
+[9.367633] (-) TimerEvent: {}
+[9.468777] (-) TimerEvent: {}
+[9.570035] (-) TimerEvent: {}
+[9.670972] (-) TimerEvent: {}
+[9.771451] (-) TimerEvent: {}
+[9.872373] (-) TimerEvent: {}
+[9.972952] (-) TimerEvent: {}
+[10.073481] (-) TimerEvent: {}
+[10.174336] (-) TimerEvent: {}
+[10.274850] (-) TimerEvent: {}
+[10.375524] (-) TimerEvent: {}
+[10.476371] (-) TimerEvent: {}
+[10.577304] (-) TimerEvent: {}
+[10.678236] (-) TimerEvent: {}
+[10.779146] (-) TimerEvent: {}
+[10.880232] (-) TimerEvent: {}
+[10.981504] (-) TimerEvent: {}
+[11.082317] (-) TimerEvent: {}
+[11.183163] (-) TimerEvent: {}
+[11.283787] (-) TimerEvent: {}
+[11.384717] (-) TimerEvent: {}
+[11.485249] (-) TimerEvent: {}
+[11.585770] (-) TimerEvent: {}
+[11.686180] (-) TimerEvent: {}
+[11.786918] (-) TimerEvent: {}
+[11.887564] (-) TimerEvent: {}
+[11.988298] (-) TimerEvent: {}
+[12.089269] (-) TimerEvent: {}
+[12.190101] (-) TimerEvent: {}
+[12.291018] (-) TimerEvent: {}
+[12.391654] (-) TimerEvent: {}
+[12.492117] (-) TimerEvent: {}
+[12.592500] (-) TimerEvent: {}
+[12.693200] (-) TimerEvent: {}
+[12.793663] (-) TimerEvent: {}
+[12.894151] (-) TimerEvent: {}
+[12.994988] (-) TimerEvent: {}
+[13.095916] (-) TimerEvent: {}
+[13.196877] (-) TimerEvent: {}
+[13.297498] (-) TimerEvent: {}
+[13.398029] (-) TimerEvent: {}
+[13.498612] (-) TimerEvent: {}
+[13.599233] (-) TimerEvent: {}
+[13.699830] (-) TimerEvent: {}
+[13.800387] (-) TimerEvent: {}
+[13.901217] (-) TimerEvent: {}
+[14.001792] (-) TimerEvent: {}
+[14.102719] (-) TimerEvent: {}
+[14.203630] (-) TimerEvent: {}
+[14.304765] (-) TimerEvent: {}
+[14.405225] (-) TimerEvent: {}
+[14.505766] (-) TimerEvent: {}
+[14.608532] (-) TimerEvent: {}
+[14.712594] (-) TimerEvent: {}
+[14.834542] (-) TimerEvent: {}
+[14.957955] (-) TimerEvent: {}
+[15.060866] (-) TimerEvent: {}
+[15.176447] (-) TimerEvent: {}
+[15.291674] (-) TimerEvent: {}
+[15.393634] (-) TimerEvent: {}
+[15.520608] (-) TimerEvent: {}
+[15.640857] (-) TimerEvent: {}
+[15.750787] (-) TimerEvent: {}
+[15.858604] (-) TimerEvent: {}
+[15.968915] (-) TimerEvent: {}
+[16.097358] (-) TimerEvent: {}
+[16.250706] (-) TimerEvent: {}
+[16.354018] (-) TimerEvent: {}
+[16.454454] (-) TimerEvent: {}
+[16.572822] (-) TimerEvent: {}
+[16.679330] (-) TimerEvent: {}
+[16.822839] (-) TimerEvent: {}
+[16.933683] (-) TimerEvent: {}
+[17.034895] (-) TimerEvent: {}
+[17.135251] (-) TimerEvent: {}
+[17.283132] (-) TimerEvent: {}
+[17.392031] (-) TimerEvent: {}
+[17.499080] (-) TimerEvent: {}
+[17.603744] (-) TimerEvent: {}
+[17.707718] (-) TimerEvent: {}
+[17.835557] (-) TimerEvent: {}
+[17.936805] (-) TimerEvent: {}
+[18.037403] (-) TimerEvent: {}
+[18.138231] (-) TimerEvent: {}
+[18.239093] (-) TimerEvent: {}
+[18.340067] (-) TimerEvent: {}
+[18.441232] (-) TimerEvent: {}
+[18.541991] (-) TimerEvent: {}
+[18.644022] (-) TimerEvent: {}
+[18.744944] (-) TimerEvent: {}
+[18.845482] (-) TimerEvent: {}
+[18.946313] (-) TimerEvent: {}
+[19.046832] (-) TimerEvent: {}
+[19.147331] (-) TimerEvent: {}
+[19.247910] (-) TimerEvent: {}
+[19.349073] (-) TimerEvent: {}
+[19.449817] (-) TimerEvent: {}
+[19.550552] (-) TimerEvent: {}
+[19.651466] (-) TimerEvent: {}
+[19.752808] (-) TimerEvent: {}
+[19.853337] (-) TimerEvent: {}
+[19.953972] (-) TimerEvent: {}
+[20.054713] (-) TimerEvent: {}
+[20.155988] (-) TimerEvent: {}
+[20.267831] (-) TimerEvent: {}
+[20.382003] (-) TimerEvent: {}
+[20.482357] (-) TimerEvent: {}
+[20.582991] (-) TimerEvent: {}
+[20.689178] (-) TimerEvent: {}
+[20.790679] (-) TimerEvent: {}
+[20.899655] (-) TimerEvent: {}
+[21.008280] (-) TimerEvent: {}
+[21.111351] (-) TimerEvent: {}
+[21.211826] (-) TimerEvent: {}
+[21.327626] (-) TimerEvent: {}
+[21.428497] (-) TimerEvent: {}
+[21.530663] (-) TimerEvent: {}
+[21.631314] (-) TimerEvent: {}
+[21.732007] (-) TimerEvent: {}
+[21.843011] (-) TimerEvent: {}
+[21.944781] (-) TimerEvent: {}
+[22.045370] (-) TimerEvent: {}
+[22.146218] (-) TimerEvent: {}
+[22.247023] (-) TimerEvent: {}
+[22.347772] (-) TimerEvent: {}
+[22.448180] (-) TimerEvent: {}
+[22.548676] (-) TimerEvent: {}
+[22.649850] (-) TimerEvent: {}
+[22.750408] (-) TimerEvent: {}
+[22.851097] (-) TimerEvent: {}
+[22.951853] (-) TimerEvent: {}
+[23.052561] (-) TimerEvent: {}
+[23.153069] (-) TimerEvent: {}
+[23.255797] (-) TimerEvent: {}
+[23.356467] (-) TimerEvent: {}
+[23.457530] (-) TimerEvent: {}
+[23.470724] (opencv_learn) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable opencv_learn\x1b[0m\n'}
+[23.558089] (-) TimerEvent: {}
+[23.660650] (-) TimerEvent: {}
+[23.730586] (opencv_learn) StdoutLine: {'line': b'[100%] Built target opencv_learn\n'}
+[23.758156] (opencv_learn) CommandEnded: {'returncode': 0}
+[23.761642] (-) TimerEvent: {}
+[23.862431] (-) TimerEvent: {}
+[23.930553] (opencv_learn) JobProgress: {'identifier': 'opencv_learn', 'progress': 'install'}
+[24.001922] (opencv_learn) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn'], 'cwd': '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://192.168.154.1:7080/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'ake'), ('all_proxy', 'socks://192.168.154.1:7080/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/jvm/java-11-openjdk-amd64/lib/:/usr/lib/jvm/java-11-openjdk-amd64/lib/server/'), ('HOME', '/home/ake'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1336'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=625c8113b50d8775e12393fd6782546b'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://192.168.154.1:7080/'), ('COLCON_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/opencv_learn/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ake'), ('ALL_PROXY', 'socks://192.168.154.1:7080/'), ('http_proxy', 'http://192.168.154.1:7080/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ake'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ake/miniconda3/bin:/home/ake/miniconda3/condabin:/opt/ros/humble/bin:/home/ake/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ake-virtual-machine:@/tmp/.ICE-unix/1336,unix/ake-virtual-machine:/tmp/.ICE-unix/1336'), ('XDG_MENU_PREFIX', 'gnome-'), ('ftp_proxy', 'http://192.168.154.1:7080/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/19a4bd46_7100_4c18_955b_f2a4388ee03d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OMT8Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.204'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ake/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ake/miniconda3/bin/conda'), ('FTP_PROXY', 'http://192.168.154.1:7080/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=625c8113b50d8775e12393fd6782546b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://192.168.154.1:7080/'), ('CONDA_PREFIX', '/home/ake/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn:/opt/ros/humble')]), 'shell': False}
+[24.003876] (-) TimerEvent: {}
+[24.014605] (opencv_learn) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.015088] (opencv_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/opencv_learn/opencv_learn\n'}
+[24.017855] (opencv_learn) StdoutLine: {'line': b'-- Set runtime path of "/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/opencv_learn/opencv_learn" to ""\n'}
+[24.018696] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/package_run_dependencies/opencv_learn\n'}
+[24.018841] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/parent_prefix_path/opencv_learn\n'}
+[24.018917] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/ament_prefix_path.sh\n'}
+[24.018988] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/ament_prefix_path.dsv\n'}
+[24.019054] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/path.sh\n'}
+[24.019121] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/path.dsv\n'}
+[24.019186] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.bash\n'}
+[24.019295] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.sh\n'}
+[24.019378] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.zsh\n'}
+[24.019467] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.dsv\n'}
+[24.020913] (opencv_learn) StdoutLine: {'line': b'-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.dsv\n'}
+[24.021045] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/packages/opencv_learn\n'}
+[24.021119] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/cmake/opencv_learnConfig.cmake\n'}
+[24.021186] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/cmake/opencv_learnConfig-version.cmake\n'}
+[24.022546] (opencv_learn) StdoutLine: {'line': b'-- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.xml\n'}
+[24.026147] (opencv_learn) CommandEnded: {'returncode': 0}
+[24.104191] (-) TimerEvent: {}
+[24.129792] (opencv_learn) JobEnded: {'identifier': 'opencv_learn', 'rc': 0}
+[24.130508] (-) EventReactorShutdown: {}

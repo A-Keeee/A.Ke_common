@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target opencv_learn[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_learn.dir/src/opencv_learn.cpp.o[0m
+[01m[K/home/ake/A.Ke/A.Ke_common/opencv_learn/src/opencv_learn.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/ake/A.Ke/A.Ke_common/opencv_learn/src/opencv_learn.cpp:154:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmethod_choice[m[K’ was not declared in this scope
+  154 | [01;31m[Kmethod_choice[m[K
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ake/A.Ke/A.Ke_common/opencv_learn/src/opencv_learn.cpp:157:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_hu[m[K’ was not declared in this scope
+  157 |             if ([01;31m[Kimg_hu[m[K.empty()) {
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/ake/A.Ke/A.Ke_common/opencv_learn/src/opencv_learn.cpp:163:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg_hu[m[K’ was not declared in this scope
+  163 |             double distance = huMomentsMatching(template_hu, [01;31m[Kimg_hu[m[K);
+      |                                                              [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/opencv_learn.dir/build.make:76：CMakeFiles/opencv_learn.dir/src/opencv_learn.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/opencv_learn.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

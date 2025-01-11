@@ -1,0 +1,104 @@
+[0.144s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.144s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71ae9f1fc910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71ae9f1fc370>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71ae9f1fc370>>)
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.328s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ake/A.Ke/A.Ke_common/opencv_learn'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'opencv_learn'
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ake/A.Ke/A.Ke_common/opencv_learn/install
+[0.372s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/humble
+[0.375s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'opencv_learn' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'opencv_learn' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'opencv_learn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'opencv_learn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'opencv_learn' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'opencv_learn' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'opencv_learn' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'opencv_learn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'opencv_learn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_learn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn', 'merge_install': False, 'path': '/home/ake/A.Ke/A.Ke_common/opencv_learn', 'symlink_install': False, 'test_result_base': None}
+[0.430s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ake/A.Ke/A.Ke_common/opencv_learn' with build type 'ament_cmake'
+[0.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ake/A.Ke/A.Ke_common/opencv_learn'
+[0.436s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn -- -j2 -l2
+[24.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn -- -j2 -l2
+[24.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn
+[24.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_learn)
+[24.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn
+[24.487s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn' for CMake module files
+[24.488s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn' for CMake config files
+[24.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_learn', 'cmake_prefix_path')
+[24.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/hook/cmake_prefix_path.ps1'
+[24.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/hook/cmake_prefix_path.dsv'
+[24.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/hook/cmake_prefix_path.sh'
+[24.494s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib'
+[24.494s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/bin'
+[24.494s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/pkgconfig/opencv_learn.pc'
+[24.494s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/python3.10/site-packages'
+[24.495s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/bin'
+[24.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.ps1'
+[24.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.dsv'
+[24.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.sh'
+[24.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.bash'
+[24.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.zsh'
+[24.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/colcon-core/packages/opencv_learn)
+[24.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_learn)
+[24.582s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn' for CMake module files
+[24.583s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn' for CMake config files
+[24.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_learn', 'cmake_prefix_path')
+[24.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/hook/cmake_prefix_path.ps1'
+[24.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/hook/cmake_prefix_path.dsv'
+[24.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/hook/cmake_prefix_path.sh'
+[24.585s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib'
+[24.585s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/bin'
+[24.585s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/pkgconfig/opencv_learn.pc'
+[24.585s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/python3.10/site-packages'
+[24.585s] Level 1:colcon.colcon_core.environment:checking '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/bin'
+[24.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.ps1'
+[24.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.dsv'
+[24.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.sh'
+[24.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.bash'
+[24.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.zsh'
+[24.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/colcon-core/packages/opencv_learn)
+[24.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.588s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.594s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.622s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.623s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/local_setup.ps1'
+[24.627s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/_local_setup_util_ps1.py'
+[24.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/setup.ps1'
+[24.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/local_setup.sh'
+[24.637s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/_local_setup_util_sh.py'
+[24.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/setup.sh'
+[24.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/local_setup.bash'
+[24.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/setup.bash'
+[24.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/local_setup.zsh'
+[24.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ake/A.Ke/A.Ke_common/opencv_learn/install/setup.zsh'

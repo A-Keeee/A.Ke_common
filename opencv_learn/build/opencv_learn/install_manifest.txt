@@ -1,0 +1,16 @@
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/opencv_learn/opencv_learn
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/package_run_dependencies/opencv_learn
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/parent_prefix_path/opencv_learn
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/ament_prefix_path.sh
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/ament_prefix_path.dsv
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/path.sh
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/path.dsv
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.bash
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.sh
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.zsh
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.dsv
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.dsv
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/packages/opencv_learn
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/cmake/opencv_learnConfig.cmake
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/cmake/opencv_learnConfig-version.cmake
+/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.xml

@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn -- -j2 -l2
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target opencv_learn[0m
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/opencv_learn.dir/src/opencv_learn.cpp.o[0m
+[23.470s] [100%] [32m[1mLinking CXX executable opencv_learn[0m
+[23.730s] [100%] Built target opencv_learn
+[23.758s] Invoked command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn -- -j2 -l2
+[24.003s] Invoking command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn
+[24.014s] -- Install configuration: ""
+[24.014s] -- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/opencv_learn/opencv_learn
+[24.017s] -- Set runtime path of "/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/opencv_learn/opencv_learn" to ""
+[24.018s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/package_run_dependencies/opencv_learn
+[24.018s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/parent_prefix_path/opencv_learn
+[24.018s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/ament_prefix_path.sh
+[24.018s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/ament_prefix_path.dsv
+[24.018s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/path.sh
+[24.018s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/path.dsv
+[24.019s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.bash
+[24.019s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.sh
+[24.019s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.zsh
+[24.019s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.dsv
+[24.020s] -- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.dsv
+[24.020s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/packages/opencv_learn
+[24.020s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/cmake/opencv_learnConfig.cmake
+[24.021s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/cmake/opencv_learnConfig-version.cmake
+[24.022s] -- Up-to-date: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.xml
+[24.026s] Invoked command in '/home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ake/A.Ke/A.Ke_common/opencv_learn/build/opencv_learn

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target opencv_learn[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_learn.dir/src/opencv_learn.cpp.o[0m
+[100%] [32m[1mLinking CXX executable opencv_learn[0m
+[100%] Built target opencv_learn
+-- Install configuration: ""
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/opencv_learn/opencv_learn
+-- Set runtime path of "/home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/lib/opencv_learn/opencv_learn" to ""
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/package_run_dependencies/opencv_learn
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/parent_prefix_path/opencv_learn
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/ament_prefix_path.sh
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/ament_prefix_path.dsv
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/path.sh
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/environment/path.dsv
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.bash
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.sh
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.zsh
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/local_setup.dsv
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.dsv
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/ament_index/resource_index/packages/opencv_learn
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/cmake/opencv_learnConfig.cmake
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/cmake/opencv_learnConfig-version.cmake
+-- Installing: /home/ake/A.Ke/A.Ke_common/opencv_learn/install/opencv_learn/share/opencv_learn/package.xml
